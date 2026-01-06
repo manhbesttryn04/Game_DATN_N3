@@ -1,0 +1,620 @@
+  <i name="3121006">
+  <i name="summon">
+    <i name="summoned">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="83"/>
+          <i name="y" value="169"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.summoned.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="84"/>
+          <i name="y" value="170"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.summoned.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="83"/>
+          <i name="y" value="170"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.summoned.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="80"/>
+          <i name="y" value="168"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.summoned.3.png"/>
+      </i>
+      <i name="4">
+        <i name="origin">
+          <i name="x" value="72"/>
+          <i name="y" value="174"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.summoned.4.png"/>
+      </i>
+    </i>
+    <i name="fly">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="46"/>
+          <i name="y" value="126"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.fly.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="47"/>
+          <i name="y" value="127"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.fly.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="44"/>
+          <i name="y" value="135"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.fly.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="36"/>
+          <i name="y" value="174"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.fly.3.png"/>
+      </i>
+      <i name="4">
+        <i name="origin">
+          <i name="x" value="45"/>
+          <i name="y" value="131"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.fly.4.png"/>
+      </i>
+    </i>
+    <i name="stand">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="46"/>
+          <i name="y" value="126"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="47"/>
+          <i name="y" value="127"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="44"/>
+          <i name="y" value="135"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="36"/>
+          <i name="y" value="174"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.3.png"/>
+      </i>
+      <i name="4">
+        <i name="origin">
+          <i name="x" value="45"/>
+          <i name="y" value="131"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.4.png"/>
+      </i>
+      <i name="5">
+        <i name="origin">
+          <i name="x" value="46"/>
+          <i name="y" value="126"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.5.png"/>
+      </i>
+      <i name="6">
+        <i name="origin">
+          <i name="x" value="47"/>
+          <i name="y" value="127"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.6.png"/>
+      </i>
+      <i name="7">
+        <i name="origin">
+          <i name="x" value="44"/>
+          <i name="y" value="135"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.7.png"/>
+      </i>
+      <i name="8">
+        <i name="origin">
+          <i name="x" value="36"/>
+          <i name="y" value="174"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.8.png"/>
+      </i>
+      <i name="9">
+        <i name="origin">
+          <i name="x" value="45"/>
+          <i name="y" value="131"/>
+        </i>
+        <i name="delay" value="100"/>
+        <i name="image" value="3121006.summon.stand.9.png"/>
+      </i>
+    </i>
+    <i name="attack1">
+      <i name="info">
+        <i name="range">
+          <i name="lt">
+            <i name="x" value="-100"/>
+            <i name="y" value="-60"/>
+          </i>
+          <i name="rb">
+            <i name="x" value="100"/>
+            <i name="y" value="60"/>
+          </i>
+          <i name="sp">
+            <i name="x" value="-24"/>
+            <i name="y" value="-37"/>
+          </i>
+          <i name="r" value="270"/>
+        </i>
+        <i name="type" value="1"/>
+        <i name="attackAfter" value="360"/>
+        <i name="mobCount" value="4"/>
+      </i>
+      <i name="0">
+        <i name="pointer" value="3121006/summon/die/0"/>
+      </i>
+      <i name="1">
+        <i name="pointer" value="3121006/summon/die/1"/>
+      </i>
+      <i name="2">
+        <i name="pointer" value="3121006/summon/die/2"/>
+      </i>
+      <i name="3">
+        <i name="pointer" value="3121006/summon/die/3"/>
+      </i>
+      <i name="4">
+        <i name="pointer" value="3121006/summon/die/4"/>
+      </i>
+      <i name="5">
+        <i name="origin">
+          <i name="x" value="0"/>
+          <i name="y" value="0"/>
+        </i>
+        <i name="delay" value="930"/>
+        <i name="image" value="3121006.summon.attack1.5.png"/>
+      </i>
+      <i name="6">
+        <i name="pointer" value="3121006/summon/die/4"/>
+      </i>
+      <i name="7">
+        <i name="pointer" value="3121006/summon/die/3"/>
+      </i>
+      <i name="8">
+        <i name="pointer" value="3121006/summon/die/2"/>
+      </i>
+      <i name="9">
+        <i name="pointer" value="3121006/summon/die/1"/>
+      </i>
+      <i name="10">
+        <i name="pointer" value="3121006/summon/die/0"/>
+      </i>
+    </i>
+    <i name="die">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="46"/>
+          <i name="y" value="126"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.summon.die.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="25"/>
+          <i name="y" value="149"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.summon.die.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="11"/>
+          <i name="y" value="157"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.summon.die.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="2"/>
+          <i name="y" value="189"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.summon.die.3.png"/>
+      </i>
+      <i name="4">
+        <i name="origin">
+          <i name="x" value="1"/>
+          <i name="y" value="141"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.summon.die.4.png"/>
+      </i>
+    </i>
+  </i>
+  <i name="hit">
+    <i name="0">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="-153"/>
+          <i name="y" value="206"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="23"/>
+          <i name="y" value="155"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="30"/>
+          <i name="y" value="115"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="72"/>
+          <i name="y" value="89"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.3.png"/>
+      </i>
+      <i name="4">
+        <i name="origin">
+          <i name="x" value="87"/>
+          <i name="y" value="166"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.4.png"/>
+      </i>
+      <i name="5">
+        <i name="origin">
+          <i name="x" value="99"/>
+          <i name="y" value="177"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.5.png"/>
+      </i>
+      <i name="6">
+        <i name="origin">
+          <i name="x" value="105"/>
+          <i name="y" value="187"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.6.png"/>
+      </i>
+      <i name="7">
+        <i name="origin">
+          <i name="x" value="121"/>
+          <i name="y" value="199"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.7.png"/>
+      </i>
+      <i name="8">
+        <i name="origin">
+          <i name="x" value="127"/>
+          <i name="y" value="180"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.8.png"/>
+      </i>
+      <i name="9">
+        <i name="origin">
+          <i name="x" value="100"/>
+          <i name="y" value="178"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.9.png"/>
+      </i>
+      <i name="10">
+        <i name="origin">
+          <i name="x" value="103"/>
+          <i name="y" value="174"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.10.png"/>
+      </i>
+      <i name="11">
+        <i name="origin">
+          <i name="x" value="76"/>
+          <i name="y" value="155"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.11.png"/>
+      </i>
+      <i name="12">
+        <i name="origin">
+          <i name="x" value="44"/>
+          <i name="y" value="34"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.0.12.png"/>
+      </i>
+    </i>
+    <i name="1">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="39"/>
+          <i name="y" value="5"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.1.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="36"/>
+          <i name="y" value="17"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.1.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="65"/>
+          <i name="y" value="7"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.1.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="63"/>
+          <i name="y" value="6"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.1.3.png"/>
+      </i>
+      <i name="4">
+        <i name="origin">
+          <i name="x" value="81"/>
+          <i name="y" value="8"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.1.4.png"/>
+      </i>
+      <i name="5">
+        <i name="origin">
+          <i name="x" value="91"/>
+          <i name="y" value="11"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.1.5.png"/>
+      </i>
+      <i name="6">
+        <i name="origin">
+          <i name="x" value="110"/>
+          <i name="y" value="13"/>
+        </i>
+        <i name="delay" value="90"/>
+        <i name="image" value="3121006.hit.1.6.png"/>
+      </i>
+    </i>
+  </i>
+  <i name="tile">
+    <i name="0">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="6"/>
+          <i name="y" value="24"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.0.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="8"/>
+          <i name="y" value="22"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.0.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="7"/>
+          <i name="y" value="22"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.0.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="6"/>
+          <i name="y" value="24"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.0.3.png"/>
+      </i>
+    </i>
+    <i name="1">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="13"/>
+          <i name="y" value="37"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.1.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="12"/>
+          <i name="y" value="38"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.1.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="11"/>
+          <i name="y" value="40"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.1.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="11"/>
+          <i name="y" value="40"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.1.3.png"/>
+      </i>
+      <i name="4">
+        <i name="pointer" value="3121006/tile/1/0"/>
+      </i>
+      <i name="5">
+        <i name="pointer" value="3121006/tile/1/1"/>
+      </i>
+      <i name="6">
+        <i name="pointer" value="3121006/tile/1/2"/>
+      </i>
+      <i name="7">
+        <i name="pointer" value="3121006/tile/1/3"/>
+      </i>
+    </i>
+    <i name="2">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="18"/>
+          <i name="y" value="62"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.2.0.png"/>
+      </i>
+      <i name="1">
+        <i name="origin">
+          <i name="x" value="16"/>
+          <i name="y" value="63"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.2.1.png"/>
+      </i>
+      <i name="2">
+        <i name="origin">
+          <i name="x" value="15"/>
+          <i name="y" value="59"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.2.2.png"/>
+      </i>
+      <i name="3">
+        <i name="origin">
+          <i name="x" value="21"/>
+          <i name="y" value="60"/>
+        </i>
+        <i name="delay" value="120"/>
+        <i name="image" value="3121006.tile.2.3.png"/>
+      </i>
+    </i>
+    <i name="3">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="0"/>
+          <i name="y" value="0"/>
+        </i>
+        <i name="delay" value="360"/>
+        <i name="image" value="3121006.tile.3.0.png"/>
+      </i>
+      <i name="1">
+        <i name="pointer" value="3121006/tile/0/0"/>
+      </i>
+      <i name="2">
+        <i name="pointer" value="3121006/tile/0/1"/>
+      </i>
+      <i name="3">
+        <i name="pointer" value="3121006/tile/0/2"/>
+      </i>
+      <i name="4">
+        <i name="pointer" value="3121006/tile/0/3"/>
+      </i>
+    </i>
+    <i name="4">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="0"/>
+          <i name="y" value="0"/>
+        </i>
+        <i name="delay" value="360"/>
+        <i name="image" value="3121006.tile.4.0.png"/>
+      </i>
+      <i name="1">
+        <i name="pointer" value="3121006/tile/1/0"/>
+      </i>
+      <i name="2">
+        <i name="pointer" value="3121006/tile/1/1"/>
+      </i>
+      <i name="3">
+        <i name="pointer" value="3121006/tile/1/2"/>
+      </i>
+      <i name="4">
+        <i name="pointer" value="3121006/tile/1/3"/>
+      </i>
+    </i>
+    <i name="5">
+      <i name="0">
+        <i name="origin">
+          <i name="x" value="0"/>
+          <i name="y" value="0"/>
+        </i>
+        <i name="delay" value="360"/>
+        <i name="image" value="3121006.tile.5.0.png"/>
+      </i>
+      <i name="1">
+        <i name="pointer" value="3121006/tile/2/0"/>
+      </i>
+      <i name="2">
+        <i name="pointer" value="3121006/tile/2/1"/>
+      </i>
+      <i name="3">
+        <i name="pointer" value="3121006/tile/2/2"/>
+      </i>
+      <i name="4">
+        <i name="pointer" value="3121006/tile/2/3"/>
+      </i>
+    </i>
+  </i>
+  </i>
