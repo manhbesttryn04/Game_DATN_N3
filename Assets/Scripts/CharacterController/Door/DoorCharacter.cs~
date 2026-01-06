@@ -1,0 +1,44 @@
+﻿using UnityEngine;
+
+public enum Direction {None,Top,Right,Bottom,Left};
+
+/// <summary>
+/// Door character.
+/// </summary>
+public class DoorCharacter : MonoBehaviour {
+
+	// Thuc hien lay thong tin
+	// Khai bao static de co the truy xuat huoong doi tuong ra ben ngoai
+	public static DoorCharacter _player;
+	// Xac nhan dieu huong
+	public Direction direction;
+
+	/// <summary>
+	/// Contructors the control.
+	/// </summary>
+	private void SettingGameObject ()
+	{
+		if (_player == null && this.gameObject.CompareTag ("Player")) {
+			// Khong uy khi chuyen qua scence moi
+			DontDestroyOnLoad (this.gameObject);
+			_player = this; // Gan player bang chinh no
+		} else if(_player != this){
+			
+			// Kiem tra nhan vat moi bat dau
+			if (_player != null && _player.direction != Direction.None) {
+				// Kiem tra khi chuyen man
+				if (this.direction == _player.direction) {
+					// Gan vi tri moi
+					_player.gameObject.transform.position = this.gameObject.transform.position;
+				}
+			}
+			// Neu no chi la noi xac dinh vi tri thi destroy luon
+			Destroy (this.gameObject);
+		}
+	}
+
+	//
+	private void Awake(){
+		SettingGameObject ();
+	}
+}

@@ -1,0 +1,84 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerLaze : MonoBehaviour {
+
+	public GameObject ObjectGraphics;
+
+	public KeyCode KeyActive;
+	public bool Move = false;
+	public string NameParameter = "Chuong";
+	public float timeActive = 10f;
+	public float timeCancel = 3f;
+
+	protected float nextTimeActive = 0f;
+	protected bool Active = false;
+	protected bool press = false;
+	// Use this for initialization
+	private void Start () {
+		nextTimeActive = 0f;
+	}
+
+	public bool GetActive(){
+		return this.Active;
+	}
+
+	public void SetActive(bool value){
+		this.Active = value;
+	}
+
+	protected void CheckPressKeyBoard ()
+	{
+		if (Input.GetKeyDown (KeyActive) && !Active && this.gameObject.activeSelf) {
+			if (nextTimeActive < Time.time) {
+				Active = true;
+				press = true;
+				if(timeActive != 0){
+					nextTimeActive = timeActive + Time.time;
+				}
+			}
+		}
+	}
+
+	protected void HandlingAttack ()
+	{
+		if (Active && !PlayerHealth.control.GetHurt ()) {
+			ObjectGraphics.SetActive (true);
+			PlayerMoving.Move = Move;
+			PlayerMoving.LockJump = true;
+			PlayerMoving.anim.SetBool (NameParameter, true);
+			PlayerMoving.anim.SetBool ("Walk", false);
+			Invoke ("InvokeCancelAnimation", timeCancel);
+		}
+		else {
+			// Huy thuc hien tan cong
+			InvokeCancelAnimation ();
+		}
+	}
+
+	protected void HandlingUpdate ()
+	{
+		CheckPressKeyBoard ();
+		HandlingAttack ();
+	}
+	
+	// Update is called once per frame
+	private void Update () {
+		HandlingUpdate ();
+	}
+
+	protected void InvokeCancelAnimation(){
+		ObjectGraphics.SetActive (false);
+		if (press) {
+			PlayerMoving.Move = true;
+			PlayerMoving.LockJump = false;
+			Active = false;
+			press = false;
+		}
+		if(this.gameObject.activeSelf && PlayerMoving.anim != null){
+			PlayerMoving.anim.SetBool (NameParameter,false);
+		}
+		CancelInvoke ("InvokeCancelAnimation");
+	}
+}
