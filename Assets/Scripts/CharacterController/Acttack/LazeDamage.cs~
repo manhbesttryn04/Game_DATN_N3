@@ -1,0 +1,26 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class LazeDamage : MonoBehaviour {
+
+	public float Damage = 50f;
+	public float timeAttack = 0.5f;
+
+	private float nextTimeAttack = 0f;
+
+	private void OnTriggerStay2D(Collider2D other){
+		if (!PlayerHealth.control.GetHurt ()) {
+			// Khi bi enemy tan cong
+			if (other.CompareTag ("Enemy") && nextTimeAttack < Time.time) {
+				// Lay thanh phan script EnemyHealth
+				EnemyHealth enemy = other.gameObject.GetComponent <EnemyHealth> ();
+				if (enemy != null) {
+					// Truyen cho enemy mot luc sat thuong
+					enemy.addDamage (PlayerHealth.control._Player.Damage + Damage);
+				}
+				nextTimeAttack = timeAttack + Time.time;
+			}
+		}
+	}
+}

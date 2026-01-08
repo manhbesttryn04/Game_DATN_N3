@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: d1a366eecf2778b468944f3418c8bd0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ThongBao_0
+  - first:
+      213: 21300002
+    second: ThongBao_1
+  - first:
+      213: 21300004
+    second: ThongBao_2
+  - first:
+      213: 21300006
+    second: ThongBao_3
+  - first:
+      213: 21300008
+    second: ThongBao_4
+  - first:
+      213: 21300010
+    second: ThongBao_5
+  - first:
+      213: 21300012
+    second: ThongBao_6
+  - first:
+      213: 21300014
+    second: ThongBao_7
+  - first:
+      213: 21300016
+    second: ThongBao_8
+  - first:
+      213: 21300018
+    second: ThongBao_9
+  - first:
+      213: 21300020
+    second: ThongBao_10
+  - first:
+      213: 21300022
+    second: ThongBao_11
+  - first:
+      213: 21300024
+    second: ThongBao_12
+  - first:
+      213: 21300026
+    second: ThongBao_13
+  - first:
+      213: 21300028
+    second: ThongBao_14
+  - first:
+      213: 21300030
+    second: ThongBao_15
+  - first:
+      213: 21300032
+    second: ThongBao_16
+  - first:
+      213: 21300034
+    second: ThongBao_17
+  - first:
+      213: 21300036
+    second: ThongBao_18
+  - first:
+      213: 21300038
+    second: ThongBao_19
+  - first:
+      213: 21300040
+    second: ThongBao_20
+  - first:
+      213: 21300042
+    second: ThongBao_21
+  - first:
+      213: 21300044
+    second: ThongBao_22
+  - first:
+      213: 21300046
+    second: ThongBao_23
+  - first:
+      213: 21300048
+    second: ThongBao_24
+  - first:
+      213: 21300050
+    second: ThongBao_25
+  - first:
+      213: 21300052
+    second: ThongBao_26
+  - first:
+      213: 21300054
+    second: ThongBao_27
+  - first:
+      213: 21300056
+    second: ThongBao_28
+  - first:
+      213: 21300058
+    second: ThongBao_29
+  - first:
+      213: 21300060
+    second: ThongBao_30
+  - first:
+      213: 21300062
+    second: ThongBao_31
+  - first:
+      213: 21300064
+    second: ThongBao_32
+  - first:
+      213: 21300066
+    second: ThongBao_33
+  - first:
+      213: 21300068
+    second: ThongBao_34
+  - first:
+      213: 21300070
+    second: ThongBao_35
+  - first:
+      213: 21300072
+    second: ThongBao_36
+  - first:
+      213: 21300074
+    second: ThongBao_37
+  - first:
+      213: 21300076
+    second: ThongBao_38
+  - first:
+      213: 21300078
+    second: ThongBao_39
+  - first:
+      213: 21300080
+    second: ThongBao_40
+  - first:
+      213: 21300082
+    second: ThongBao_41
+  - first:
+      213: 21300084
+    second: ThongBao_42
+  - first:
+      213: 21300086
+    second: ThongBao_43
+  - first:
+      213: 21300088
+    second: ThongBao_44
+  - first:
+      213: 21300090
+    second: ThongBao_45
+  - first:
+      213: 21300092
+    second: ThongBao_46
+  - first:
+      213: 21300094
+    second: ThongBao_47
+  - first:
+      213: 21300096
+    second: ThongBao_48
+  - first:
+      213: 21300098
+    second: ThongBao_49
+  - first:
+      213: 21300100
+    second: ThongBao_50
+  - first:
+      213: 21300102
+    second: ThongBao_51
+  - first:
+      213: 21300104
+    second: ThongBao_52
+  - first:
+      213: 21300106
+    second: ThongBao_53
+  - first:
+      213: 21300108
+    second: ThongBao_54
+  - first:
+      213: 21300110
+    second: ThongBao_55
+  - first:
+      213: 21300112
+    second: ThongBao_56
+  - first:
+      213: 21300114
+    second: ThongBao_57
+  - first:
+      213: 21300116
+    second: ThongBao_58
+  - first:
+      213: 21300118
+    second: ThongBao_59
+  - first:
+      213: 21300120
+    second: ThongBao_60
+  - first:
+      213: 21300122
+    second: ThongBao_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThongBao_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 722
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01858ce7d1a199040ad9436389ba2e3c
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 712
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a96012ca11288548ac3db2ef849e021
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 731
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ec8f5a87e884a42bfcf77f00e330a6
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 720
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05f2e7d16d45da45befe26bcd4e1d53
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_4
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 550
+        width: 202
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adfbd7434e9dee4aae3902e4a9d7fc7
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_5
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 564
+        width: 214
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8830daaa3dd294e8137079571fa8d3
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 682
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4f04cca5ae780439e55e8707ed9abd
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 563
+        width: 206
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a009dc9f4e349df4686873a4990e98ae
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_8
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 671
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930e26beb26208540a12b4caaccd7a71
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_9
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 677
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b459ab16316b8648ac7c758e4bea117
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_10
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 667
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6459a00f171b96419eedc94046b1285
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_11
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 653
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f2070da6f101f4196ad8a0f50291da
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_12
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 628
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddc83f38340c1e41bbe9c01676e6062
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 604
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f40b01f6f1c1624594245762ec8b0dc
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_14
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 596
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5c5f6f16ebc1b4a813050dce75ee97
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 545
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83e7d121df91244281e95f14662bf8f
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_16
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 560
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9623c184bd62e94a9486c07eb176b7d
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_17
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 547
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56aa16f7e13da54c9823f8442e85ba1
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_18
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 560
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9747ecad0f69ccd4184bd79850076fef
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 298
+        width: 184
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6762beaf6c64f544fb758f1d01e81989
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_20
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 467
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6439551115a10a43b08fc5f44ce5e80
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 483
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57ff77b644122a44a08785dfd6cee83
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_22
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 455
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e913a009fa49f2e4eb468804c0f9acd9
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_23
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 333
+        width: 197
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccbfd70080b4c842a0699dba9e54b48
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 292
+        width: 189
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bdbb72d277da94d942432689b14555
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 466
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5922c6bcea102498a8c37c46e3f1a3
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_26
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 453
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c664313e171d344499abc104a7258bc
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_27
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 444
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca4bfde8d2a1a04f93a05a97eb69de0
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_28
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 404
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7fe0e3245944442a91c35e805e6a8b
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_29
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 400
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e600a3f0c903c04f88e7c547ee50580
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_30
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 386
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a0b9df3f5f88347b10437dcdccc0f6
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_31
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 386
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96dae3320ae9904580e6c8ee08f7059
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_32
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 380
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af05b55bc1eac24e83d0a0ba71854c2
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 360
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29e335ee2f655e4c95bbd9451521452
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_34
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 380
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8c7b63ee8614e41ad5fa6c9d7473d8
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 358
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3a58a11a0754a488dfa0b1774fd329
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_36
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 354
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6836156eeae537a49bb07a73eff52805
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_37
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 309
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e114973f7674cd240a3ea6ac95587aad
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_38
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 201
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49a03aa843aee1468925f84cef4bb9a
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_39
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 231
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d8204c9de68f24da0db519564b106c
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_40
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 218
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c790cad74b7f24549ac5632895632cdf
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_41
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 207
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99e97cfc962adc44805af903786f3c6
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_42
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 70
+        width: 226
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec00a570f9434394ca890230252a2e3b
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_43
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 227
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f739940b777ead44a70968d3ce5ac31
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_44
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 213
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5a30e64be40924aa7ab4f632bf3281
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_45
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 55
+        width: 228
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69f75c746712d4418b7faa52d6840b2
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_46
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 234
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc0ea909582d5740afbba18391a69fb
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_47
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 225
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942945953a6dfdb45b3731bddf7f7af2
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_48
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 81
+        width: 206
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b0e3d94d327a94ea4a4f0b25ac12db
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_49
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 216
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c0ae94dad407e47bbc9d84b97f60ce
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_50
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 185
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff2cdaa01116b1409641e0e4e19aebd
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_51
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 174
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f069e41a6f7cea4ba4e1676d2157eb2
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_52
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 115
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df400a5aea1be0418147240ea6f5cde
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_53
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 120
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9927e263e67760d4fa732dadf266df33
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 87
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3801738484576e4c842710707a72da0
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_55
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 70
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f353855e44668d4e99c68d5d57f2561
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_56
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 94
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5759c7d83e38e4a8623ff660ba983c
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_57
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 74
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade816d3a43f07e4eb0c84d9db574735
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_58
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 68
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2d2e002daceb746b508f65ccf9c74b
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_59
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 60
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183cd5009f2f0a6448b9636682197be8
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_60
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 54
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbddfe720f7d8984eac508c1d43b4777
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThongBao_61
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 54
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ef17124a9369c4aaa38bd984862c3b
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5cdd20dbb970a5848abffa88600f10bb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThongBao_0: 21300000
+      ThongBao_1: 21300002
+      ThongBao_10: 21300020
+      ThongBao_11: 21300022
+      ThongBao_12: 21300024
+      ThongBao_13: 21300026
+      ThongBao_14: 21300028
+      ThongBao_15: 21300030
+      ThongBao_16: 21300032
+      ThongBao_17: 21300034
+      ThongBao_18: 21300036
+      ThongBao_19: 21300038
+      ThongBao_2: 21300004
+      ThongBao_20: 21300040
+      ThongBao_21: 21300042
+      ThongBao_22: 21300044
+      ThongBao_23: 21300046
+      ThongBao_24: 21300048
+      ThongBao_25: 21300050
+      ThongBao_26: 21300052
+      ThongBao_27: 21300054
+      ThongBao_28: 21300056
+      ThongBao_29: 21300058
+      ThongBao_3: 21300006
+      ThongBao_30: 21300060
+      ThongBao_31: 21300062
+      ThongBao_32: 21300064
+      ThongBao_33: 21300066
+      ThongBao_34: 21300068
+      ThongBao_35: 21300070
+      ThongBao_36: 21300072
+      ThongBao_37: 21300074
+      ThongBao_38: 21300076
+      ThongBao_39: 21300078
+      ThongBao_4: 21300008
+      ThongBao_40: 21300080
+      ThongBao_41: 21300082
+      ThongBao_42: 21300084
+      ThongBao_43: 21300086
+      ThongBao_44: 21300088
+      ThongBao_45: 21300090
+      ThongBao_46: 21300092
+      ThongBao_47: 21300094
+      ThongBao_48: 21300096
+      ThongBao_49: 21300098
+      ThongBao_5: 21300010
+      ThongBao_50: 21300100
+      ThongBao_51: 21300102
+      ThongBao_52: 21300104
+      ThongBao_53: 21300106
+      ThongBao_54: 21300108
+      ThongBao_55: 21300110
+      ThongBao_56: 21300112
+      ThongBao_57: 21300114
+      ThongBao_58: 21300116
+      ThongBao_59: 21300118
+      ThongBao_6: 21300012
+      ThongBao_60: 21300120
+      ThongBao_61: 21300122
+      ThongBao_7: 21300014
+      ThongBao_8: 21300016
+      ThongBao_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
