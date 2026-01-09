@@ -1,0 +1,49 @@
+﻿using UnityEngine;
+
+public class DanCharacter : MonoBehaviour {
+
+	public float Speed = 40f;
+	protected Animator anim;
+	protected Rigidbody2D bd;
+	public float TimeLive;
+	public bool blAnim = true;
+
+	protected void Awake(){
+		bd = GetComponent <Rigidbody2D> ();
+		anim = GetComponent <Animator> ();
+		// Dieu chinh huong bay
+		if (transform.localScale.x < 0) {
+			bd.AddForce (new Vector2 (-1, 0) * Speed, ForceMode2D.Impulse);
+		} else {
+			bd.AddForce (new Vector2 (1, 0) * Speed, ForceMode2D.Impulse);
+		}
+		Destroy (gameObject,TimeLive);
+	}
+
+	private void OnTriggerEnter2D(Collider2D col){
+		if(col.CompareTag ("Enemy") || col.CompareTag ("Dan") ){
+            // Danh cho quai
+            if (col.CompareTag("Enemy"))
+            {
+                if (!col.gameObject.GetComponent<EnemyHealth>().GetTanHinh())
+                {
+                    if (anim != null && blAnim)
+                    {
+                        anim.SetBool("No", true);
+                        bd.linearVelocity = Vector3.zero;
+                    }
+                }
+            }
+                // Danh cho dan
+                if (col.CompareTag("Dan"))
+                {
+                    if (anim != null && blAnim)
+                    {
+                        anim.SetBool("No", true);
+                        bd.linearVelocity = Vector3.zero;
+                    }
+                }
+			Destroy (gameObject,0.5f);
+		}
+	}
+}
