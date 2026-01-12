@@ -1,0 +1,107 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+using System;
+
+// Lop de kiem tra ton tai cua component
+public static class hasComponent {
+	public static bool HasComponent<T>(this GameObject flag)where T : Component{
+		return flag.GetComponent<T> () != null;
+	}
+}
+
+public class CanvasController : MonoBehaviour {
+
+	public static CanvasController control;
+	// Doi tuong nhan vat
+	//Thanh mau
+	public Slider sliderHealth;
+	public Text textHealth;
+	// mana
+	public Slider SliderMana;
+	public Text textMana;
+	// Vang
+	public Text textGold;
+	// Mot so bien xu ly
+	private string strMoney;
+	//private PlayerHealth _player;
+
+	/// <summary>
+	/// Creates the canvas player.
+	/// </summary>
+	private void CreateCanvasPlayer ()
+	{
+		// Muc dich
+		// Khi chuyen scence neu chua co can vas no se them cai control nay vao
+		if (control == null) {
+			// Giu lai gameobject
+			DontDestroyOnLoad (this.gameObject);
+			control = this;
+		}
+		else
+			if (control != this) {
+				Destroy (this.gameObject);
+			}
+	}
+
+	private void Awake(){
+		CreateCanvasPlayer ();
+		// Lam ro bien _player
+		//_player = GameObject.FindGameObjectWithTag ("Player").GetComponent <PlayerHealth> ();
+	}
+
+	public void SetInformation ()
+	{
+		PlayerHealth _player = PlayerHealth.control;
+		// Create slider health
+		sliderHealth.maxValue = _player._Player.Health.Max;
+		sliderHealth.value = _player._Player.Health.Current;
+		// Create slider mana
+		SliderMana.maxValue = _player._Player.Mana.Max;
+		SliderMana.value = _player._Player.Mana.Current;
+		// Create gold
+		textGold.text = convertCurrent (_player._Player.Gold);
+	}
+
+	private void Update (){
+		// Thuc hien thay doi thong tin
+		SetInformation ();
+	}
+//
+//	private void LateUpdate(){
+//		// Kiem tra ton tai cua player
+//		if (_player == null) {
+//			// Neu khong ton tai, kiem tra no lan nua
+//			if (GameObject.FindGameObjectWithTag ("Player") != null) {
+//				// Neu ton tai thi gan no cho player
+//				_player = GameObject.FindGameObjectWithTag ("Player").GetComponent <PlayerHealth> (); 
+//			}
+//		}
+//	}
+
+	// Chuyen doi chuoi thanh dang tien te
+	private string convertCurrent(double money){
+		if (money == 0) {
+			return "0";
+		}else 
+			if (money < 1000000) {
+				strMoney = String.Format ("{0:0,00}", money);
+			} else if (money < 1000000000) {
+				// Hien thi chu "M" khi tien tren 1 trieu
+				strMoney = getDecimal(money,1000000) + "M";
+			}else {
+				// Hien thi chu "B" khi tien tren 1 trieu
+				strMoney = getDecimal(money,1000000000) + "B";
+			}
+		return strMoney;
+	}
+
+	// Chi lay 1 so cuoi sau dau cham
+	private string getDecimal(double money,double unit){
+		print (Math.Round ((money / unit), 1));
+		print (Math.Round ((money / unit), 0));
+		if (Math.Round ((money / unit), 1) - Math.Round ((money / money), 0) != 0) {
+			return Math.Round ((money / unit), 1).ToString ();
+		}
+		return Math.Round ((money / unit), 0).ToString ();
+	}
+}

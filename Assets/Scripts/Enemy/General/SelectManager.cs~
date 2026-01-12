@@ -1,0 +1,11 @@
+﻿using UnityEngine;
+
+public static class SelectManager {
+
+    // Select one gameobject
+    public static void OnSelect() { 
+    
+    }
+
+    //public static 
+}

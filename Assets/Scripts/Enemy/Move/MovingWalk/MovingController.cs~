@@ -1,0 +1,32 @@
+﻿using UnityEngine;
+
+public class MovingController : MonoBehaviour {
+
+	public float minX, maxX;
+
+	private Rigidbody2D myRB;
+
+	private void Awake(){
+		myRB = GetComponent<Rigidbody2D> ();
+	}
+
+	// Use this for initialization
+	void Start () {
+
+	}
+
+	// Update is called once per frame
+	void Update () {
+		// Thuc hien di chuyen
+	}
+
+	private void OnTriggerStay2D(Collider2D other){
+		if (other.CompareTag ("Player")) {
+			if (minX == 2) {
+				print ("Va Cham Voi Con Quai O Tren");
+			} else if (minX == 7) {
+				print ("Va Cham Voi Con Quai O Duoi");
+			} 
+		}
+	}
+}

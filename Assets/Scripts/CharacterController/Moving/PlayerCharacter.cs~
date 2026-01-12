@@ -1,0 +1,203 @@
+﻿using UnityEngine;
+
+public class PlayerCharacter : MonoBehaviour
+{
+    public float Speed = 8f; // Speed of Character
+    public float maxVelocity = 4f; // Max velocity of Character
+    public float jumpHeight = 2f;
+    public float maxJump = 1f;
+
+	public static bool Move = true;
+    private bool grounded = false;
+
+    public GameObject wind;// Lay doi tuong animation gio
+
+    //public GameObject JumpGraphics; // Lay doi tuong animation nhay
+    public static bool Jump = false; // Kiem tra nhay
+
+    //[SerializeField] // Use access Rigidbody outside
+    private Rigidbody2D myBody;
+    private Animator anim;
+
+	//
+	private PlayerHealth playerHealth;
+	public static bool ExecuteSkillOne = false;
+	//
+    /// <summary>
+    /// Awake this instance.
+    /// </summary>
+    private void Awake()
+    {
+        myBody = GetComponent<Rigidbody2D>(); // Get component Rigidbody2D
+        anim = GetComponent<Animator>(); // Get component Animator
+		playerHealth = GetComponent <PlayerHealth>();
+    }
+
+    // Use this for initialization
+    void Start()
+    {
+		Move = true;
+    }
+
+    // Update is called once per frame
+    private void FixedUpdate()
+	{
+		if (Move && !playerHealth.GetDie () && !playerHealth.GetHurt ()) {
+			// Handling move character by keyboard
+			PlayerMoveKeyboard ();
+		} else {
+			SetEnabledWind (false);
+		}
+    }
+
+    // Use handling character move by keyboard
+    private void PlayerMoveKeyboard()
+    {
+        float forxeX = 0f; // Position X
+        float forxeY = 0f; // Position Y
+
+        // Gets input keyboard to move left, right
+        float h = Input.GetAxisRaw("Horizontal");
+		// Neu dang chuong thi dung chay
+		if (!ExecuteSkillOne) {
+			// Move plaryer 
+			MovePlayer (ref forxeX, h);
+		} else {
+			anim.SetBool ("Walk",!ExecuteSkillOne);
+			SetEnabledWind(anim.GetBool("Walk"));
+		}
+        // Jump Character
+        JumpPlayer(h,ref forxeY);
+
+        // Acttack player
+        //ActtackPlayer(h);
+
+        // Thay doi thong so nhan vat
+        myBody.AddForce(new Vector2(forxeX, forxeY), ForceMode2D.Force);    // Change position of character
+    }
+
+    // Thuc hien di chuyen
+    private void MovePlayer(ref float forxeX, float h)
+    {
+        if (h > 0)
+        {
+            SetLocalScale(h);
+            // Chuyen huong cua nhan vat
+            forxeX = GetForxeX(h, forxeX);
+            // Call
+        }
+        if (h < 0)
+        {
+            // Move right
+            SetLocalScale(h);
+            forxeX = GetForxeX(h, forxeX);
+            // Call
+		}
+		if (h == 0){
+            anim.SetBool("Walk", false);
+            SetEnabledWind(anim.GetBool("Walk"));
+            // Hien gio
+        }
+    }
+
+    /// <summary>
+    /// Sets the local scale.
+    /// </summary>
+    /// <param name="h">The height.</param>
+    private void SetLocalScale(float h)
+    {
+        // Set localScale for character
+        Vector3 temp = transform.localScale;
+        temp.x = h * Mathf.Abs(transform.localScale.x);
+        transform.localScale = temp;
+
+        // Set an/hien gio
+        SetEnabledWind(anim.GetBool("Walk"));
+    }
+
+    /// <summary>
+    /// Sets the local scale and animation.
+    /// </summary>
+    /// <returns>The local scale and animation.</returns>
+    /// <param name="vel">Vel.</param>
+    /// <param name="scaleX">Scale x.</param>
+    /// <param name="h">The height.</param>
+    private float GetForxeX(float h, float forxeX = 0f)
+    {
+        float vel = Mathf.Abs(myBody.velocity.x); // Get velocity of character
+        if (vel < maxVelocity)
+        {
+            // Truong hop binh thuong khong co vat can
+            if (grounded)
+            {
+                forxeX = Speed * h;
+                anim.SetBool("Walk", true); // Set parameter "Walk" value true
+            }
+            else
+            {
+                // Truong hop khong co vat can
+                forxeX = Speed * h * 1.5f;
+            }
+        }
+        return forxeX;
+    }
+
+    // Hanh dong nhay
+    private void JumpPlayer(float h, ref float forxeY)
+    {
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        {
+            // Kiem tra neu dang dung tren nen dat
+            if (grounded)
+            {
+                grounded = false;
+                // Gioi han luc day nhan vat di len
+				if (myBody.velocity.y < maxJump)
+                {
+                    forxeY = jumpHeight;
+                }
+                // Hien nhao lon
+				Jump = true;
+                //
+            }
+        }
+    }
+    /// <summary>
+    /// Hiddens the wind to run.
+    /// </summary>
+    private void SetEnabledWind(bool value)
+    {
+        if (grounded && value)
+        {
+            wind.gameObject.SetActive(value);
+        }
+        else
+        {
+            wind.gameObject.SetActive(false);
+        }
+    }
+
+    /// <summary>
+    /// Raises the collision enter2 d event.
+    /// </summary>
+    /// <param name="target">Target.</param>
+    private void OnCollisionEnter2D(Collision2D target)
+    {
+        // Xu ly va cham giua nhan vat va nen dat
+        CollisionBetweenPlayerAndGround(target);
+    }
+
+    private void CollisionBetweenPlayerAndGround(Collision2D target)
+    {
+		if (target.gameObject.tag == "Ground" || target.gameObject.tag == "Falling")
+        {
+            grounded = true;
+        }
+		if (target.gameObject.tag == "Thung") {
+			grounded = true;
+			maxJump = 10;
+		} else {
+			maxJump = 1;
+		}
+    }
+}

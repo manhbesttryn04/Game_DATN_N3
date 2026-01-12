@@ -1,0 +1,30 @@
+﻿using UnityEngine;
+/// <summary>
+/// File chua thong tin luc sat thuong khi thuc hien tan cong quai
+/// File nay duoc di doi voi mot loai Collider2D dung de va cham voi Enemy.
+/// Muc dich: Truyen sat thuong cua nhan vat toi cho Enemy
+/// </summary>
+public class PlayerDamage : MonoBehaviour {
+	// Sat thuong co ban cua layer nam trong Player.cs
+	// Luc sat thuong cua mot ky nang cua player
+	public float Damage = 50f;
+	// Xac nhan va cham tan cong
+	// 
+	/// <summary>
+	/// Raises the trigger enter2 d event.
+	/// </summary>
+	/// <param name="other">Other.</param>
+	private void OnTriggerEnter2D(Collider2D other){
+		if (!PlayerHealth.control.GetHurt ()) {
+			// Khi bi enemy tan cong
+			if (other.CompareTag ("Enemy")) {
+				// Lay thanh phan script EnemyHealth
+				EnemyHealth enemy = other.gameObject.GetComponent <EnemyHealth> ();
+				if (enemy != null) {
+					// Truyen cho enemy mot luc sat thuong
+					enemy.addDamage (PlayerHealth.control._Player.Damage + Damage);
+				}
+			}
+		}
+	}
+}

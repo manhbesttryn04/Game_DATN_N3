@@ -1,0 +1,82 @@
+﻿using System;
+
+[Serializable]
+public class Player {
+	// Nhung phuong thuc o day khong duoc de public ra ben ngoai
+	// Thuc hien tinh dong goi cua Unity
+	public Range Health = new Range(100000f,100000f); // Máu
+	public Range Mana = new Range(250f,250f); // Thể lực
+	public Range Experience = new Range(50f,0); // Kinh nghiệm
+	public Range Infuriate = new Range(100f,0); // Phẩn nộ
+	public Range Level= new Range(30f,0); // Cấp độ
+	public double Gold = 0; // So vang nhan duoc;
+	public float Damage = 45f; // Lực chiến
+
+	public void SetDefault(){
+		Health.Current = Health.Max;
+		Mana.Current = Mana.Max;
+		this.SaveInformation ();
+	}
+
+	// Thuc hien tang, giam mau cho nhan vat
+	/// <summary>
+	/// Sets the health.
+	/// </summary>
+	/// <param name="key">Key: 1 = Max, 0 = Current</param>
+	/// <param name="value">Value.</param>
+	public void SetHealth(int key,float value){
+		if (key == 0) {
+			this.Health.Current = value;
+			// kiem tra dieu kien
+			if (this.Health.Current < 0) {
+				this.Health.Current = 0;
+			}else if (this.Health.Current > this.Health.Max) {
+				this.Health.Current = this.Health.Max;
+			}
+		} 
+		else
+			if (key == 1) {
+			this.Health.Max = value;
+		}
+	}
+
+	// Thuc hien tang, giam mana cho nhan vat
+	/// <summary>
+	/// Sets the mana.
+	/// </summary>
+	/// <param name="key">Key: 1 = Max, 0 = Current</param>
+	/// <param name="value">Value.</param>
+	public void SetMana(int key,float value){
+		if (key == 0) {
+			this.Mana.Current = value;
+			// kiem tra dieu kien
+			if (this.Mana.Current < 0) {
+				this.Mana.Current = 0;
+			}else if (this.Mana.Current > this.Mana.Max) {
+				this.Mana.Current = this.Mana.Max;
+			}
+		} 
+		else
+			if (key == 1) {
+				this.Mana.Max = value;
+			}
+	}
+
+	public void SaveInformation(){
+		PlayerManager.SaveInformation (this);
+	}
+
+	public Player LoadInformation(){
+		if (this.hasExist ()) {
+			return PlayerManager.LoadInformation ();
+		}
+		return null;
+	}
+
+	public bool hasExist(){
+		if (PlayerManager.LoadInformation () != null) {
+			return true;
+		}
+		return false;
+	}
+}
