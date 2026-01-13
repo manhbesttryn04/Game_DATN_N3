@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 3db5626b31f36b948a8fbc0a2f8e2b2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: TuyetRoi_0
+  - first:
+      213: 21300002
+    second: TuyetRoi_1
+  - first:
+      213: 21300004
+    second: TuyetRoi_2
+  - first:
+      213: 21300006
+    second: TuyetRoi_3
+  - first:
+      213: 21300008
+    second: TuyetRoi_4
+  - first:
+      213: 21300010
+    second: TuyetRoi_5
+  - first:
+      213: 21300012
+    second: TuyetRoi_6
+  - first:
+      213: 21300014
+    second: TuyetRoi_7
+  - first:
+      213: 21300016
+    second: TuyetRoi_8
+  - first:
+      213: 21300018
+    second: TuyetRoi_9
+  - first:
+      213: 21300020
+    second: TuyetRoi_10
+  - first:
+      213: 21300022
+    second: TuyetRoi_11
+  - first:
+      213: 21300024
+    second: TuyetRoi_12
+  - first:
+      213: 21300026
+    second: TuyetRoi_13
+  - first:
+      213: 21300028
+    second: TuyetRoi_14
+  - first:
+      213: 21300030
+    second: TuyetRoi_15
+  - first:
+      213: 21300032
+    second: TuyetRoi_16
+  - first:
+      213: 21300034
+    second: TuyetRoi_17
+  - first:
+      213: 21300036
+    second: TuyetRoi_18
+  - first:
+      213: 21300038
+    second: TuyetRoi_19
+  - first:
+      213: 21300040
+    second: TuyetRoi_20
+  - first:
+      213: 21300042
+    second: TuyetRoi_21
+  - first:
+      213: 21300044
+    second: TuyetRoi_22
+  - first:
+      213: 21300046
+    second: TuyetRoi_23
+  - first:
+      213: 21300048
+    second: TuyetRoi_24
+  - first:
+      213: 21300050
+    second: TuyetRoi_25
+  - first:
+      213: 21300052
+    second: TuyetRoi_26
+  - first:
+      213: 21300054
+    second: TuyetRoi_27
+  - first:
+      213: 21300056
+    second: TuyetRoi_28
+  - first:
+      213: 21300058
+    second: TuyetRoi_29
+  - first:
+      213: 21300060
+    second: TuyetRoi_30
+  - first:
+      213: 21300062
+    second: TuyetRoi_31
+  - first:
+      213: 21300064
+    second: TuyetRoi_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TuyetRoi_0
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1204
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5de63b5356aaf4c90c9e282f4d4611
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_1
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 1161
+        width: 143
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea232ebc8702a345ac7f521ffd72151
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1122
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d10413f405f2d24b971dde841eed2d8
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_3
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1137
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c93ff922ab23340b8723a20feb5d46
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_4
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1148
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb55679b435a330418c60dba0c819855
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_5
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 1145
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac78b268eb3f884aa5ce8ed94cccb9d
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_6
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1097
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82f4529ff79d9a428e92031c8e9d720
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1084
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30a57fbb11907a4da313f690fa5f46b
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_8
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1074
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4013650013de29f45b5fcad55f4194b0
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1062
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f890d481affc7a4f8e71245d33bc2d4
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 907
+        width: 198
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3967c59a2618445a6aa08fbae5e02d
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_11
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1033
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8d4d99dcc94c84288c9f93940dbe61
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_12
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 959
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e99fc69756f9a429b1cf789f05c6a5
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_13
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 945
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb02ee028ba79fc4c965cb466845522c
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_14
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 936
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33709de106ae5d947b4f3fbd43e8fe1d
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_15
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 904
+        width: 72
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5db8431631bf4e4486b55f750654bdb
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_16
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 748
+        width: 121
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce5a129e301aaa4db0fe89c223631c0
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_17
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 735
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af053141259ec44d8635e5ded415453
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_18
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 837
+        width: 95
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1771e22d139627b4bb68fe5fd942f895
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_19
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 806
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561fbfe08b47f9647a309a32db7c32d7
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_20
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 583
+        width: 108
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9699a9783a7ddae408b0f2a7a1369a77
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_21
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 636
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bfe512fdba6d44c8f00e2d31ffd251
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_22
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 565
+        width: 118
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2df777d9225d8468b4261521f2fd89
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_23
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 694
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e87476eec9b66546b27a6702efe689d
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_24
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 445
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0e070c00ca7f74facbfeba23dca999
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_25
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 444
+        width: 42
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdd81190adc0004ca03636e30617ce6
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_26
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 520
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c750d0192d92a90439966440df94d05c
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_27
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 457
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050871ea06a7bbf448fbba3c8f4852be
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_28
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 382
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60809718e0c1bc14aa800ea7a6dd2cb4
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_29
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 190
+        width: 229
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3250c57dd58954292a24a78c602dff
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_30
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 387
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f76616d1aa03347aa28d0d0776fcf0
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_31
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 59
+        width: 188
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cc5ab3b4215874785346685e02847a
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TuyetRoi_32
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 101
+        width: 134
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aad13060e07ca4c925dbda7d45bb84
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 658d3d4af30c19b4cae7607a8eadb405
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TuyetRoi_0: 21300000
+      TuyetRoi_1: 21300002
+      TuyetRoi_10: 21300020
+      TuyetRoi_11: 21300022
+      TuyetRoi_12: 21300024
+      TuyetRoi_13: 21300026
+      TuyetRoi_14: 21300028
+      TuyetRoi_15: 21300030
+      TuyetRoi_16: 21300032
+      TuyetRoi_17: 21300034
+      TuyetRoi_18: 21300036
+      TuyetRoi_19: 21300038
+      TuyetRoi_2: 21300004
+      TuyetRoi_20: 21300040
+      TuyetRoi_21: 21300042
+      TuyetRoi_22: 21300044
+      TuyetRoi_23: 21300046
+      TuyetRoi_24: 21300048
+      TuyetRoi_25: 21300050
+      TuyetRoi_26: 21300052
+      TuyetRoi_27: 21300054
+      TuyetRoi_28: 21300056
+      TuyetRoi_29: 21300058
+      TuyetRoi_3: 21300006
+      TuyetRoi_30: 21300060
+      TuyetRoi_31: 21300062
+      TuyetRoi_32: 21300064
+      TuyetRoi_4: 21300008
+      TuyetRoi_5: 21300010
+      TuyetRoi_6: 21300012
+      TuyetRoi_7: 21300014
+      TuyetRoi_8: 21300016
+      TuyetRoi_9: 21300018
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
