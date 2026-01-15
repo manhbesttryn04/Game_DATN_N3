@@ -67,11 +67,13 @@ public class MainMenuController : MonoBehaviour {
         {
             File.Delete(PlayerManager.pathInformation);
         }
+
         // Thay doi nhan vat
         if (File.Exists(PlayerManager.pathChangePlayer))
         {
             File.Delete(PlayerManager.pathChangePlayer);
         }
+
         // Ky nang nhan vat
         if (File.Exists(PlayerManager.pathSkillPlayer))
         {

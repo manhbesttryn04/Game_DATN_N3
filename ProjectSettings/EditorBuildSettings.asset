@@ -50,6 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scences/CutScene/StartCutScene.unity
     guid: c2e45fa0159649f43a4c730042f8a54d
+  - enabled: 1
+    path: Assets/Scences/ChooseLevel/MenuChoose.unity
+    guid: fce21409a166a3942ad34b5ca834e5d2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
