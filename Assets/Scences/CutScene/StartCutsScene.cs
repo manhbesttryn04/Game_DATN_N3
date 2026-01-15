@@ -76,6 +76,7 @@ public class StartCutsScene : MonoBehaviour
     }
     public void PlayGame(string namescene)
     { isPlaying = true;
+        isTyping = false;
         musicBG.enabled = false;
         storyTextBox.text = "";
         buttonSkip.gameObject.SetActive(false);

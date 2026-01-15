@@ -77,6 +77,7 @@ public class MainMenuController : MonoBehaviour {
         {
             File.Delete(PlayerManager.pathSkillPlayer);
         }
+
         // Vat pham nhan vat
         if (File.Exists(PlayerManager.pathItemPlayer))
         {
