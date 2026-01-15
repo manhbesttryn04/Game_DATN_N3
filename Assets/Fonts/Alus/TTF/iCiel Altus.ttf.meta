@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: fe49998c65a53d641b60339b8e5565f3
+timeCreated: 1525597327
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: iCiel Altus
+  fontNames:
+  - iCiel Altus
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c62e3049c2a9d054b8c6228e0903ed02, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
