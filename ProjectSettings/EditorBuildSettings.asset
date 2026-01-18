@@ -42,10 +42,10 @@ EditorBuildSettings:
     path: Assets/Scences/Loading/Load.unity
     guid: 43e09d4c19a8f864195431f93c193739
   - enabled: 1
-    path: Assets/Scences/Level3/Gui/Gui.unity
+    path: Assets/Scences/Gui/Gui.unity
     guid: 5e3f7b2d6da21774fb3fe173bf7c4ce5
   - enabled: 1
-    path: Assets/Scences/Level3/Gui/Read/GuiPlay.unity
+    path: Assets/Scences/Gui/Read/GuiPlay.unity
     guid: 5b716f1860fe0e84199244159d2ae769
   - enabled: 1
     path: Assets/Scences/CutScene/StartCutScene.unity
