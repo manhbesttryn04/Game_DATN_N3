@@ -9,10 +9,29 @@ public class BangNgoc : MonoBehaviour {
     public Text SLNgocTho;
     public Text SLNgocPhong;
 
+	private int soLuongMacDinh = 99;
+
 	// Use this for initialization
 	void Start () {
-		
+		CapNgocMienPhi();
 	}
+
+    void CapNgocMienPhi() {
+        // Kiểm tra và cộng cho Ngọc Hoa (ID: 1)
+        if (VatPhamController.GetItemByID(1).ID != -1) {
+            VatPhamController.GetItemByID(1).Quality = soLuongMacDinh;
+        }
+
+        // Kiểm tra và cộng cho Ngọc Thổ (ID: 2)
+        if (VatPhamController.GetItemByID(2).ID != -1) {
+            VatPhamController.GetItemByID(2).Quality = soLuongMacDinh;
+        }
+
+        // Kiểm tra và cộng cho Ngọc Phong (ID: 3)
+        if (VatPhamController.GetItemByID(3).ID != -1) {
+            VatPhamController.GetItemByID(3).Quality = soLuongMacDinh;
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
