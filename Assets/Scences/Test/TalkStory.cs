@@ -1,36 +1,38 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class TalkStroy : MonoBehaviour
-{
+{//Chuoi thoai va hinh anh nhan vat
     public string[] talkStory;
     public Sprite[] imageChatacters;
+    //textMeshPro va hinh anh nhan vat
     public TextMeshProUGUI textTalk;
     public GameObject imageCharacter;
     public GameObject talkOject;
+    //Chi so chuoi thoai hien tai
     public int index = 0;
-    public bool isActive= false;
+    //Trang thai hien thi thoai
+    public bool isActivee= true;
     public bool isNext = false;
-    public GameObject boss;
-    void Start()
-    { boss = GameObject.FindGameObjectWithTag("Boss")   ;
-        if (boss != null)
-        {   talkOject.SetActive(true);
-            isActive = true;
-            isNext = true;
-            LoadTalk();
-        }else 
+   
+   
+    public void Update()
+    {//Xu ly ket thuc thoai
+        EndTalk();
+        //Xu ly hien thi thoai
+        if (isActivee)
         {
-            talkOject.SetActive(false);
-            isActive = false;
-            Debug.Log("No Boss");
+            talkOject.SetActive(true);
+            LoadTalk();
+           
+        }
+       // Debug.Log(isActivee+ "Story");
+    }
 
+    //Hien thi thoai va hinh anh nhan vat
 
-        } }
-
-    // Update is called once per frame
-  
     public void LoadTalk()
     {
         if (isNext)
@@ -40,29 +42,38 @@ public class TalkStroy : MonoBehaviour
             isNext = false;
         }
     }
-    public void SetActiveTalk()
-    {
-       
-    }
+    //Chuyen den thoai tiep theo
     public void NextTalk()
     {
         index++;
         isNext = true;
 
         LoadTalk();
-        EndTalk();
+     
     }
+    //Ket thuc thoai
     public void EndTalk()
     {
         if(index >= imageChatacters.Length || index >= talkStory.Length)
         {
-            isActive = false;
+            isActivee = false;
         }
 
-        if(!isActive)
+        if(!isActivee)
         {
             talkOject.SetActive(false);
         }
     }
-    
+    public bool GetIsActive() { 
+        return isActivee;
+    }
+    public int GetIndex() {
+        return index;
+    }
+    public int GetLength() {
+        return talkStory.Length;
+    }
+
+
+
 }

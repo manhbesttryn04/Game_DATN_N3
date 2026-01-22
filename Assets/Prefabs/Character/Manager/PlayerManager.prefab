@@ -21157,20 +21157,20 @@ MonoBehaviour:
   sound: {fileID: 0}
   _Player:
     Health:
-      Max: 1000
-      Current: 1000
+      Max: 10000
+      Current: 10000
     Experience:
       Max: 50
       Current: 0
     Infuriate:
       Max: 250
       Current: 0
-    Level: 1
-    Gold: 1000
-    Damage: 12
+    Level: 100
+    Gold: 2000000
+    Damage: 1000
     PointSkill: 100
     BuildNameScence: 
-  IsLoad: 1
+  IsLoad: 0
   timeAnimationDie: 2.2
   timeCancelHurt: 0.5
   CanvasDamage: {fileID: 1917386608427912, guid: 1d16fc5018aca2c438a43691a6d98be2, type: 3}
