@@ -16,24 +16,48 @@ public class TalkStroy : MonoBehaviour
     //Trang thai hien thi thoai
     public bool isActivee= true;
     public bool isNext = false;
-   
-   
+    //Thoi gian chay chu
+    public float timeDelay = 1f;
+    //Thoi gian dem hien thi chu
+    public float timeDelayCurrent = 0f;
+    //Toc do chay chu
+    public float SpeedDelay = 0.01f;
+    //Trang thai bat dau dem thoi gian
+    public bool StartDelay = false;
+
+
     public void Update()
     {//Xu ly ket thuc thoai
         EndTalk();
-        //Xu ly hien thi thoai
+       StartTalk();
+         BoDemTuDongChayTalk();
+
+    }
+    //Bat dau thoai
+    public void StartTalk()
+    {
         if (isActivee)
         {
             talkOject.SetActive(true);
             LoadTalk();
-           
+            StartDelay = true;
+
+        }
+    }
+    //Tu dong chay thoai
+    public void BoDemTuDongChayTalk(){
+        if (StartDelay)
+        {
+            timeDelayCurrent += SpeedDelay * Time.unscaledDeltaTime;
         }
 
-        if (Input.GetKeyDown(KeyCode.K))
+        if (timeDelayCurrent >= timeDelay)
         {
-            NextTalk();
+            index++;
+            isNext = true;
+            LoadTalk();
+            timeDelayCurrent = 0f;
         }
-       // Debug.Log(isActivee+ "Story");
     }
 
     //Hien thi thoai va hinh anh nhan vat
@@ -67,6 +91,8 @@ public class TalkStroy : MonoBehaviour
         if(!isActivee)
         {
             talkOject.SetActive(false);
+            StartDelay = false;
+            timeDelayCurrent = 0f;
         }
     }
     public bool GetIsActive() { 
