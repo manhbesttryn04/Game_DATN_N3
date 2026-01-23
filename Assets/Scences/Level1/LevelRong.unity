@@ -7782,6 +7782,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114728380243410582, guid: d0d8c024c1e00d142b6a9863c0713a25, type: 3}
+      propertyPath: _Enemy.boss
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114728380243410582, guid: d0d8c024c1e00d142b6a9863c0713a25, type: 3}
       propertyPath: _Enemy.IsBoss
       value: 1
       objectReference: {fileID: 0}

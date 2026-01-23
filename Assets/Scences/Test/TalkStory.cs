@@ -28,6 +28,11 @@ public class TalkStroy : MonoBehaviour
             LoadTalk();
            
         }
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            NextTalk();
+        }
        // Debug.Log(isActivee+ "Story");
     }
 
