@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMeetBoss1 : MonoBehaviour
@@ -23,6 +24,10 @@ public class PlayerMeetBoss1 : MonoBehaviour
     //Hieu ung boc hoi khi boss chet
     public GameObject HieuUngBocHoiBossDie;
     public bool isHieuUngBossDie = true;
+    //Kha nang tan hinh cua boss soi
+    public BChapter3Controller SoiChar;
+    public GameObject canvasSoiTreuPlayer;
+    public bool isKillSoi = true;
 
     void Start()
     {
@@ -34,6 +39,7 @@ public class PlayerMeetBoss1 : MonoBehaviour
     {
         MeetBossSoi();
         BossSoiChet();
+        BatSkillSoiTanHinh();
     }
     public void MeetBossSoi()
     {
@@ -76,4 +82,19 @@ public class PlayerMeetBoss1 : MonoBehaviour
                 isHieuUngBossDie = false;
             }
         }
+        
+}
+    public void BatSkillSoiTanHinh()
+    {if(enemyHealth._Enemy.Health.Current <= 8000) {
+            if(isKillSoi){
+                canvasSoiTreuPlayer.SetActive(true);
+                SoiChar.enabled = true;
+              
+                isKillSoi = false;
+            } else if(isKillSoi ==false)
+            {
+               Destroy(canvasSoiTreuPlayer,2.5f);
+            }
+        }
 } }
+

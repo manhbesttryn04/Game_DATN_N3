@@ -33,6 +33,8 @@ public class PlayerMeetBoss : MonoBehaviour
     public GameObject viTriRoi;
     //boxcolider boss
     public PolygonCollider2D bossCollider;
+    public GameObject[] boxChan;
+  
 
     public bool isDrop = true;
    
@@ -78,7 +80,9 @@ public class PlayerMeetBoss : MonoBehaviour
             }
             
         }else if(TalkStroy1.GetIsActive() == false && bossHealth._Enemy.Health.Current <= 1600)
-        {
+        { Destroy(boxChan[0]);
+            Destroy(boxChan[1]);
+          
             //Sau khi thoai xong thi cho phep di chuyen
             pauseBoss.playerMoving.enabled = true;
             spriteRenderer.gameObject.GetComponent<Transform>().localScale = new Vector3(2.5f, 2.5f, 1f);
