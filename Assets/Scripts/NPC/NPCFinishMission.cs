@@ -5,9 +5,9 @@ public class NPCFinishMission : MonoBehaviour
 {
     public GameObject goldPrefab;
     public int goldAmount = 10;
-    private bool isPlayerNearby = false;
-    private bool canComplete = false; 
-    private bool isDone = false;
+    public bool isPlayerNearby = false;
+public bool canComplete = false; 
+    public bool isDone = false;
 
     void Update()
     {
