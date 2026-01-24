@@ -10,11 +10,12 @@ public class NPCMission2D : MonoBehaviour
     private bool isPlayerNearby = false;
     private bool isPanelActive = false; // Kiểm tra bảng đang bật hay tắt
 
-  
+    private NPCFinishMission finishScript;
     
 
     void Start()
     { 
+        finishScript = GetComponent<NPCFinishMission>();
         // Đảm bảo mọi thứ ẩn khi bắt đầu
         if (pressFHint != null) pressFHint.SetActive(false);
         if (missionPanel != null) missionPanel.SetActive(false);
