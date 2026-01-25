@@ -11,10 +11,13 @@ public class NPCMission2D : MonoBehaviour
     private bool isPanelActive = false; // Kiểm tra bảng đang bật hay tắt
 
     private NPCFinishMission finishScript;
+    public GameObject player;
+    
     
 
     void Start()
-    { 
+    {
+        isPanelActive = true;
         finishScript = GetComponent<NPCFinishMission>();
         // Đảm bảo mọi thứ ẩn khi bắt đầu
         if (pressFHint != null) pressFHint.SetActive(false);
@@ -33,8 +36,16 @@ public class NPCMission2D : MonoBehaviour
                 ToggleMissionPanel();
             }
         }
+        PlayerMeetMission();
     }
-    
+    public void PlayerMeetMission()
+    {
+        if(Vector3.Distance(player.transform.position, this.transform.position) < 10f && isPanelActive)
+        {
+            missionPanel.SetActive(true);
+            Debug.Log("Ban dang co 1 nhiem vu");
+        }
+    }
 
     void ToggleMissionPanel()
     {
