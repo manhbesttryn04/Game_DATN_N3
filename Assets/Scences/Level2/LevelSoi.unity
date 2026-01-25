@@ -824,11 +824,6 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
---- !u!1 &153986077 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1118237650880502, guid: faa9ee9018cab184fab53e4d68c42cfa, type: 3}
-  m_PrefabInstance: {fileID: 521384447}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &159802909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1229,7 +1224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114727537342325074, guid: 7f142d56f91f668478f4e8e00cba04f6, type: 3}
       propertyPath: _Enemy.boss
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114727537342325074, guid: 7f142d56f91f668478f4e8e00cba04f6, type: 3}
       propertyPath: _Enemy.type
@@ -11509,6 +11504,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4363680919463242, guid: e1fa005accaec0a4094217054e4cbc8a, type: 3}
   m_PrefabInstance: {fileID: 1772942503}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1765244094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1812002793972336, guid: faa9ee9018cab184fab53e4d68c42cfa, type: 3}
+  m_PrefabInstance: {fileID: 521384447}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1767073441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13191,15 +13191,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859d669a22e3ac04baf74182f0de73ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMeetBoss1
-  player: {fileID: 153986077}
+  player: {fileID: 1765244094}
   bossSoi: {fileID: 1317856306}
   talkStroy: {fileID: 1640510258}
   talkStroy1: {fileID: 1294851459}
-  distance: 10
+  distance: 30
   enemyMovingWalk: {fileID: 1985969682}
   enemyHealth: {fileID: 1317856308}
   bossDieImage: {fileID: 768367689}
-  tagerInstaneImageSoiDie: {fileID: 2088863629}
+  tagerInstaneImageSoiDie: {fileID: 1317856306}
   soiDie: {fileID: 0}
   isBossSoiDie: 1
   HieuUngBocHoiBossDie: {fileID: 1120002546}
