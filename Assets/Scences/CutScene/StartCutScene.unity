@@ -1226,6 +1226,10 @@ MonoBehaviour:
   isPlaying: 0
   musicBG: {fileID: 831511101}
   typingSpeed: 0.009
+  delay: 0.5
+  currentDelay: 0
+  speedDelay: 1
+  isDelay: 1
 --- !u!82 &831511101
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3128,13 +3132,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vi\u1EC7c l\xE0m game chung tr\xEAn Git gi\xFAp c\xE1c th\xE0nh vi\xEAn
-    trong nh\xF3m qu\u1EA3n l\xFD m\xE3 ngu\u1ED3n hi\u1EC7u qu\u1EA3 v\xE0 l\xE0m
-    vi\u1EC7c \u0111\u1ED3ng th\u1EDDi m\xE0 kh\xF4ng b\u1ECB ghi \u0111\xE8 d\u1EEF
-    li\u1EC7u. M\u1ED7i th\xE0nh vi\xEAn  ch\u1EE9c trong qu\xE1 tr\xECnh ph\xE1t
-    tri\u1EC3n game. Nh\u1EDD \u0111\xF3, nh\xF3m c\xF3 th\u1EC3 ph\u1ED1i h\u1EE3p
-    t\u1ED1t h\u01A1n, gi\u1EA3m xung \u0111\u1ED9t v\xE0 n\xE2ng cao ch\u1EA5t l\u01B0\u1EE3ng
-    s\u1EA3n ph\u1EA9m."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -3637,14 +3635,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 831511100}
         m_TargetAssemblyTypeName: StartCutsScene, Assembly-CSharp
-        m_MethodName: SkipStory
-        m_Mode: 1
+        m_MethodName: PlayGame
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level 1.1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1913256737

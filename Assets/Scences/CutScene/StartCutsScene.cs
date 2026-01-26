@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -17,43 +18,72 @@ public class StartCutsScene : MonoBehaviour
     public bool isPlaying = false;
     public AudioSource musicBG;
     public float typingSpeed = 0.05f;
+    public float delay = 1f;
+    public float currentDelay = 0;
+    public float speedDelay = 1f;
+    public bool isDelay = true;
     
 
     void Start()
-    { if(!isPlaying)
-        {
-            StartStory();
-        }
+    { 
     }
        
     void Update()
     {
        
         EndStory();
-       XetStory();
+        RunStory();
+        
+       //XetStory();
     }
+    public void RunStory()
+    {if (!isPlaying)
+        {
+            if (isDelay)
+            {
+                currentDelay += speedDelay * Time.deltaTime;
+
+                if (currentDelay >= delay)
+                {
+                    index++;
+                    isTyping = true;
+                    NextStory();
+                    currentDelay = 0;
+                    isDelay = false;
+                }
+
+            }
+
+            if (storyTextBox.text == storyText[index] && index <= storyText.Length - 1)
+            {
+                isDelay = true;
+            }
+
+            if (index >= storyText.Length - 1) isDelay = false;
+        }
+        else{
+           
+            storyTextBox.gameObject.SetActive(false);
+            
+        
+        } }
 
     public void NextStory()
     {
         if (isTyping)
         {
-            for(int i = 0; i < ojImageStory.Length; i++)
+            for (int i = 0; i < ojImageStory.Length; i++)
             {
                 ojImageStory[i].SetActive(false);
             }
             ojImageStory[index].SetActive(true);
-           
+
             StartCoroutine(TypeText(storyText[index]));
             isTyping = false;
-        } }
-    public void XetStory()
-    { if(!isPlaying){
-        if(storyTextBox.text == storyText[index])
-        {
-           buttonSkip.gameObject.SetActive(true);
-        }else {
-            buttonSkip.gameObject.SetActive(false); } } }
-    //
+        }
+     
+    }
+    
     public void StartStory()
     {
 
@@ -65,22 +95,14 @@ public class StartCutsScene : MonoBehaviour
         StartCoroutine(TypeText(storyText[index]));
         
     }
-    public void SkipStory()
-    {
-        index++;
-        isTyping = true;
-        NextStory();
-
-
-
-    }
+   
     public void PlayGame(string namescene)
     { isPlaying = true;
         isTyping = false;
         musicBG.enabled = false;
         storyTextBox.text = "";
-        buttonSkip.gameObject.SetActive(false);
-        buttonPlay.SetActive(false);
+       buttonSkip.gameObject.SetActive(false);
+       buttonPlay.gameObject. SetActive(false);
         SceneManager.LoadScene("Load", LoadSceneMode.Additive);
         StartCoroutine(Loading(namescene));
     }
@@ -93,22 +115,30 @@ public class StartCutsScene : MonoBehaviour
     public void EndStory()
     {
         if(index >= storyText.Length-1)
-        {
-            buttonPlay.SetActive(true);
-            buttonSkip.gameObject.SetActive(false);
+        {if(!isPlaying)
+            {
+                buttonPlay.SetActive(true);
+                buttonSkip.gameObject.SetActive(false);
+            }
+          
+           // isDelay = false;
            
         }
     }
     public IEnumerator TypeText(string text)
     {
-        storyTextBox.text = "";
-        foreach (char c in text)
-        {
-            storyTextBox.text += c;
-            yield return new WaitForSeconds(typingSpeed);
-            buttonSkip.interactable = true;
+        
+            storyTextBox.text = "";
+            foreach (char c in text)
+            {
+                storyTextBox.text += c;
+                yield return new WaitForSeconds(typingSpeed);
+                buttonSkip.interactable = true;
 
 
-        }
+            }
+        
+      
     }
+    //code cua manh
 }
