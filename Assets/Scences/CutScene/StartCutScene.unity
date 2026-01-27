@@ -1161,63 +1161,34 @@ MonoBehaviour:
   - {fileID: 1365336567}
   - {fileID: 1290510784}
   storyText:
-  - "\u201CH\u01A1n m\u1ED9t ng\xE0n n\u0103m tr\u01B0\u1EDBc, khi th\u1EBF gian
-    \u0111\u1EE9ng b\xEAn b\u1EDD di\u1EC7t vong, c\xE1c Long Th\u1EA7n c\u1ED5 \u0111\u1EA1i
-    \u0111\xE3 h\u1EE3p nh\u1EA5t s\u1EE9c m\u1EA1nh c\u1EE7a H\u1ECFa, Th\u1ED5
-    v\xE0 Phong, k\u1EBFt tinh th\xE0nh Ng\u1ECDc B\u0103ng V\u0129nh C\u1EEDu \u0111\u1EC3
-    phong \u1EA5n H\u1EAFc Long Komodo \u2014 con r\u1ED3ng sa ng\xE3 mang h\u1EAFc
-    \xE1m thu\u1EA7n t\xFAy.\u201D"
-  - "Th\u1EBF gian y\xEAn b\xECnh cho \u0111\u1EBFn khi b\u1EA7u tr\u1EDDi b\u1ECB
-    x\xE9 r\xE1ch b\u1EDFi m\u1ED9t v\u1EADt th\u1EC3 l\u1EA1 r\u01A1i xu\u1ED1ng
-    t\u1EEB h\u01B0 kh\xF4ng. \u0110\xF3 l\xE0 phi thuy\u1EC1n c\u1EE7a Ch\u1EE7ng
-    t\u1ED9c Ngo\xE0i H\xE0nh Tinh \u2014 The Outsiders. V\u1EDBi c\xF4ng ngh\u1EC7
-    si\xEAu vi\u1EC7t v\xE0 tham v\u1ECDng khai th\xE1c Tr\xE1i \u0110\u1EA5t, ch\xFAng
-    ph\xE1t hi\u1EC7n ra m\u1ED9t ngu\u1ED3n n\u0103ng l\u01B0\u1EE3ng c\u1ED5 \u0111\u1EA1i
-    b\u1ECB phong \u1EA5n s\xE2u trong l\xF2ng \u0111\u1EA5t.\u201D  \u201C\u0110\u1EC3
-    chi\u1EBFm \u0111o\u1EA1t s\u1EE9c m\u1EA1nh \u1EA5y, The Outsiders \u0111\xE3
-    s\u1EED d\u1EE5ng c\xF4ng ngh\u1EC7 h\u1EA1t nh\xE2n t\u1ED1i th\u01B0\u1EE3ng
-    nh\u1EB1m ph\xE1 v\u1EE1 phong \u1EA5n c\u1ED5 \u0111\u1EA1i."
-  - "\u201CSau khi \u0111\u01B0\u1EE3c gi\u1EA3i ph\xF3ng, H\u1EAFc Long Komodo tung
-    c\xE1nh gieo r\u1EAFc n\u1ED7i kinh ho\xE0ng, ph\xE1 h\u1EE7y c\xE1c ng\xF4i
-    l\xE0ng trong bi\u1EC3n l\u1EEDa. C\xF9ng l\xFAc \u0111\xF3, Ng\u1ECDc B\u0103ng
-    V\u0129nh C\u1EEDu \u2014 phong \u1EA5n giam c\u1EA7m h\u1EAFn \u2014 v\u1EE1
-    tan, ph\xE2n r\xE3 th\xE0nh ba vi\xEAn ng\u1ECDc nguy\xEAn t\u1ED1: H\u1ECFa,
-    Th\u1ED5 v\xE0 Phong.\u201D"
-  - "\u201CH\u1EAFc Long Komodo gieo r\u1EAFc n\u1ED7i kinh ho\xE0ng, ph\xE1 h\u1EE7y
-    v\xF4 s\u1ED1 ng\xF4i l\xE0ng trong bi\u1EC3n l\u1EEDa. Trong s\u1ED1 \u0111\xF3,
-    c\xF3 c\u1EA3 ng\xF4i l\xE0ng c\u1EE7a nam ch\xEDnh. Gi\u1EEFa khung c\u1EA3nh
-    \u0111\u1ED5 n\xE1t v\xE0 kh\xF3i l\u1EEDa ng\xFAt tr\u1EDDi, c\u1EADu b\xE9
-    r\u1ED3ng \u2014 ng\u01B0\u1EDDi sau n\xE0y s\u1EBD tr\u1EDF th\xE0nh k\u1EBB
-    \u0111\xE1nh b\u1EA1i H\u1EAFc Long h\u1EAFc \xE1m \u2014 ch\u1EC9 bi\u1EBFt
-    \u0111\u1EE9ng \u0111\xF3, b\u1EADt kh\xF3c, khi qu\xEA h\u01B0\u01A1ng m\xECnh
-    b\u1ECB thi\xEAu r\u1EE5i.\u201D"
-  - "\u201CNg\u01B0\u1EDDi ngo\xE0i h\xE0nh tinh \u0111\xE3 th\u1EA5t b\u1EA1i trong
-    vi\u1EC7c ki\u1EC3m so\xE1t s\u1EE9c m\u1EA1nh r\u1ED3ng h\u1EAFc \xE1m. Tr\u01B0\u1EDBc
-    quy\u1EC1n n\u0103ng kh\xF4ng th\u1EC3 c\u01B0\u1EE1ng l\u1EA1i, ch\xFAng l\u1EF1a
-    ch\u1ECDn ph\u1EE5c t\xF9ng. D\u01B0\u1EDBi tr\u01B0\u1EDBng H\u1EAFc Long Komodo,
-    k\u1EBB \u0111\u1EBFn t\u1EEB c\u1ED5 \u0111\u1EA1i v\xE0 sinh v\u1EADt c\u1EE7a
-    th\u1EDDi \u0111\u1EA1i c\xF4ng ngh\u1EC7 h\u1EE3p nh\u1EA5t, khai sinh m\u1ED9t
-    li\xEAn minh b\xF3ng t\u1ED1i ch\u01B0a t\u1EEBng t\u1ED3n t\u1EA1i.\u201D"
-  - "\"Sau \u0111\u1EA1i h\u1EE7y di\u1EC7t, R\u1ED3ng H\u1EAFc \xC1m gieo r\u1EAFc
-    n\u1ED7i kinh ho\xE0ng kh\u1EAFp th\u1EBF gian nh\u01B0ng do ch\u01B0a ph\u1EE5c
-    h\u1ED3i ho\xE0n to\xE0n s\u1EE9c m\u1EA1nh, h\u1EAFn r\xFAt v\u1EC1 sa m\u1EA1c
-    t\xE0n tro v\xE0 n\u1EAFm gi\u1EEF Vi\xEAn Ng\u1ECDc H\u1ECFa. S\xF3i C\u1ED5
-    \u0110\u1EA1i, k\u1EBB cai tr\u1ECB R\u1EEBng Thi\xEAng, b\u1EA3o v\u1EC7 Vi\xEAn
-    Ng\u1ECDc Th\u1ED5 v\xE0 ti\xEAu di\u1EC7t m\u1ECDi k\u1EBB x\xE2m ph\u1EA1m.
-    Trong khi \u0111\xF3, Ng\u01B0\u1EDDi Ngo\xE0i H\xE0nh Tinh kh\xF4ng th\u1EC3
-    ki\u1EC3m so\xE1t s\u1EE9c m\u1EA1nh h\u1EAFc \xE1m, bu\u1ED9c ph\u1EA3i lui
-    v\u1EC1 V\xF9ng \u0110\u1EA5t S\u01B0\u01A1ng M\xF9 v\xE0 n\u1EAFm gi\u1EEF Vi\xEAn
-    Ng\u1ECDc Phong\""
-  - "\"V\u1EC1 ph\xEDa c\u1EADu b\xE9 r\u1ED3ng, khi ch\u1EE9ng ki\u1EBFn s\u1EF1
-    t\xE0n ph\xE1 m\xE0 r\u1ED3ng h\u1EAFc \xE1m \u0111\u1EC3 l\u1EA1i, c\u01A1n
-    gi\u1EADn b\xF9ng l\xEAn trong tim c\u1EADu b\xE9 hi\u1EC7p s\u0129 r\u1ED3ng.
-    Tr\u01B0\u1EDBc \u0111\u1ED5 n\xE1t v\xE0 tro t\xE0n, c\u1EADu si\u1EBFt ch\u1EB7t
-    n\u1EAFm tay, th\u1EC1 s\u1EBD phong \u1EA5n con qu\xE1i v\u1EADt \u1EA5y \u0111\u1EC3
-    mang l\u1EA1i s\u1EF1 b\xECnh y\xEAn cho th\u1EBF gi\u1EDBi m\u1ED9t l\u1EA7n
-    n\u1EEFa. Kh\xF4ng ngo\u1EA3nh \u0111\u1EA7u nh\xECn l\u1EA1i, c\u1EADu quay
-    l\u01B0ng v\u1EDBi n\u1ED7i \u0111au, l\u1EB7ng l\u1EBD b\u01B0\u1EDBc ti\u1EBFp
-    \u2014 mang theo l\u1EDDi th\u1EC1 ch\xE1y b\u1ECFng d\u1EABn l\u1ED1i cho h\xE0nh
-    tr\xECnh ph\xEDa tr\u01B0\u1EDBc.\""
+  - "H\u01A1n ng\xE0n n\u0103m tr\u01B0\u1EDBc, c\xE1c Long Th\u1EA7n c\u1ED5 \u0111\u1EA1i
+    \u0111\xE3 h\u1EE3p nh\u1EA5t s\u1EE9c m\u1EA1nh \u0111\u1EC3 t\u1EA1o ra Ng\u1ECDc
+    B\u0103ng V\u0129nh C\u1EEDu, phong \u1EA5n H\u1EAFc Long Komodo"
+  - "B\u1EA7u tr\u1EDDi b\u1ECB x\xE9 to\u1EA1c khi phi thuy\u1EC1n c\u1EE7a The
+    Outsiders r\u01A1i xu\u1ED1ng Tr\xE1i \u0110\u1EA5t. Ch\xFAng ph\xE1t hi\u1EC7n
+    ngu\u1ED3n n\u0103ng l\u01B0\u1EE3ng c\u1ED5 \u0111\u1EA1i v\xE0 d\xF9ng c\xF4ng
+    ngh\u1EC7 h\u1EA1t nh\xE2n t\u1ED1i th\u01B0\u1EE3ng \u0111\u1EC3 ph\xE1 v\u1EE1
+    phong \u1EA5n"
+  - "H\u1EAFc Long Komodo \u0111\u01B0\u1EE3c gi\u1EA3i ph\xF3ng, t\xE0n ph\xE1 th\u1EBF
+    gian. Ng\u1ECDc B\u0103ng V\u0129nh C\u1EEDu v\u1EE1 tan, chia th\xE0nh ba Ng\u1ECDc
+    Nguy\xEAn T\u1ED1: H\u1ECFa, Th\u1ED5 v\xE0 Phong"
+  - "Khi Komodo tr\xFAt l\u1EEDa xu\u1ED1ng th\u1EBF gian, m\u1ED9t ng\xF4i l\xE0ng
+    bi\u1EBFn m\u1EA5t kh\u1ECFi b\u1EA3n \u0111\u1ED3. Ch\u1EC9 c\xF2n m\u1ED9t
+    c\u1EADu b\xE9 r\u1ED3ng s\u1ED1ng s\xF3t \u2014 k\u1EBB mang trong m\xECnh n\u1ED7i
+    m\u1EA5t m\xE1t, v\xE0 s\u1ED1 m\u1EC7nh \u0111\u1ED1i \u0111\u1EA7u H\u1EAFc
+    Long"
+  - "S\u1EE9c m\u1EA1nh h\u1EAFc \xE1m kh\xF4ng th\u1EC3 b\u1ECB \u0111i\u1EC1u khi\u1EC3n.
+    K\u1EBB x\xE2m l\u0103ng t\u1EEB v\xEC sao bu\u1ED9c ph\u1EA3i quy ph\u1EE5c.
+    D\u01B0\u1EDBi danh H\u1EAFc Long Komodo, m\u1ED9t th\u1EBF l\u1EF1c ch\u01B0a
+    t\u1EEBng \u0111\u01B0\u1EE3c ghi ch\xE9p ra \u0111\u1EDDi"
+  - "H\u1EAFc Long r\xFAt v\u1EC1 Sa M\u1EA1c T\xE0n Tro, gi\u1EEF Vi\xEAn Ng\u1ECDc
+    H\u1ECFa. R\u1EEBng Thi\xEAng r\u01A1i v\xE0o tay S\xF3i C\u1ED5 \u0110\u1EA1i
+    c\xF9ng Vi\xEAn Ng\u1ECDc Th\u1ED5. Ng\u01B0\u1EDDi Ngo\xE0i H\xE0nh Tinh chi\u1EBFm
+    gi\u1EEF V\xF9ng \u0110\u1EA5t S\u01B0\u01A1ng M\xF9 v\u1EDBi Vi\xEAn Ng\u1ECDc
+    Phong."
+  - "Gi\u1EEFa tro t\xE0n, c\u1EADu b\xE9 hi\u1EC7p s\u0129 r\u1ED3ng th\u1EC1 phong
+    \u1EA5n r\u1ED3ng h\u1EAFc \xE1m. L\u1EDDi th\u1EC1 \u1EA5y d\u1EABn c\u1EADu
+    b\u01B0\u1EDBc v\xE0o h\xE0nh tr\xECnh kh\xF4ng th\u1EC3 quay \u0111\u1EA7u"
   storyTextBox: {fileID: 1571787176}
   buttonSkip: {fileID: 1913256736}
   buttonPlay: {fileID: 962920513}
@@ -1226,6 +1197,10 @@ MonoBehaviour:
   isPlaying: 0
   musicBG: {fileID: 831511101}
   typingSpeed: 0.009
+  delay: 2.5
+  currentDelay: 0
+  speedDelay: 1
+  isDelay: 0
 --- !u!82 &831511101
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3128,13 +3103,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vi\u1EC7c l\xE0m game chung tr\xEAn Git gi\xFAp c\xE1c th\xE0nh vi\xEAn
-    trong nh\xF3m qu\u1EA3n l\xFD m\xE3 ngu\u1ED3n hi\u1EC7u qu\u1EA3 v\xE0 l\xE0m
-    vi\u1EC7c \u0111\u1ED3ng th\u1EDDi m\xE0 kh\xF4ng b\u1ECB ghi \u0111\xE8 d\u1EEF
-    li\u1EC7u. M\u1ED7i th\xE0nh vi\xEAn  ch\u1EE9c trong qu\xE1 tr\xECnh ph\xE1t
-    tri\u1EC3n game. Nh\u1EDD \u0111\xF3, nh\xF3m c\xF3 th\u1EC3 ph\u1ED1i h\u1EE3p
-    t\u1ED1t h\u01A1n, gi\u1EA3m xung \u0111\u1ED9t v\xE0 n\xE2ng cao ch\u1EA5t l\u01B0\u1EE3ng
-    s\u1EA3n ph\u1EA9m."
+  m_text: "Gi\u1EEFa tro t\xE0n, c\u1EADu b\xE9 hi\u1EC7p s\u0129 r\u1ED3ng th\u1EC1
+    phong \u1EA5n r\u1ED3ng h\u1EAFc \xE1m. L\u1EDDi th\u1EC1 \u1EA5y d\u1EABn c\u1EADu
+    b\u01B0\u1EDBc v\xE0o h\xE0nh tr\xECnh kh\xF4ng th\u1EC3 quay \u0111\u1EA7u"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -3161,8 +3132,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3637,14 +3608,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 831511100}
         m_TargetAssemblyTypeName: StartCutsScene, Assembly-CSharp
-        m_MethodName: SkipStory
-        m_Mode: 1
+        m_MethodName: PlayGame
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Level 1.1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1913256737
