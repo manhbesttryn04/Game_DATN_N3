@@ -19378,6 +19378,10 @@ PrefabInstance:
       propertyPath: m_text
       value: "M\u1EE5c ti\xEAu: 2 anh em qu\u1EF7 kh\u1ED5ng l\u1ED3\n\n"
       objectReference: {fileID: 0}
+    - target: {fileID: 3953758647095699527, guid: 9f9dd67053751e04ba2802895cd12703, type: 3}
+      propertyPath: m_margin.y
+      value: -239.90027
+      objectReference: {fileID: 0}
     - target: {fileID: 6058411867260664816, guid: 9f9dd67053751e04ba2802895cd12703, type: 3}
       propertyPath: m_text
       value: "M\u1EDE \u0110\u01AF\u1EDCNG\n"
