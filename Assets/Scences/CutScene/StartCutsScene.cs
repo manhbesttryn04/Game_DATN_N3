@@ -26,8 +26,11 @@ public class StartCutsScene : MonoBehaviour
     public float speedDelay = 1f;           // Tốc độ cộng delay
     public bool isDelay = true;             // Có đang delay không
 
+    public TextCutScene textCut;
+
     void Start()
-    {
+    { 
+        UpdateTextCutScene();          // Cập nhật text từ ScriptableObject
         StartStory();                       // Bắt đầu story ngay khi vào scene
     }
 
@@ -147,6 +150,13 @@ public class StartCutsScene : MonoBehaviour
                 buttonPlay.SetActive(true);     // Hiện nút Play
                 buttonSkip.gameObject.SetActive(false);
             }
+        }
+    }
+    public void UpdateTextCutScene()
+    {
+        for(int i = 0; i < textCut.texts.Length; i++)
+        {
+            storyText[i] = textCut.texts[i];
         }
     }
 
