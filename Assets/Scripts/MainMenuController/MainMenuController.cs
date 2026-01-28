@@ -61,7 +61,7 @@ public class MainMenuController : MonoBehaviour {
     }
 
     public void AllowResetGame()
-    {
+    { Debug.Log("Xoa du lieu game");
         // Thong tin nhan vat
         if (File.Exists(PlayerManager.pathInformation))
         {
@@ -78,7 +78,8 @@ public class MainMenuController : MonoBehaviour {
         if (File.Exists(PlayerManager.pathSkillPlayer))
         {
             File.Delete(PlayerManager.pathSkillPlayer);
-        }
+            
+        }else { Debug.Log("Khong co file ky nang"); }
 
         // Vat pham nhan vat
         if (File.Exists(PlayerManager.pathItemPlayer))

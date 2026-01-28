@@ -1161,34 +1161,13 @@ MonoBehaviour:
   - {fileID: 1365336567}
   - {fileID: 1290510784}
   storyText:
-  - "H\u01A1n ng\xE0n n\u0103m tr\u01B0\u1EDBc, c\xE1c Long Th\u1EA7n c\u1ED5 \u0111\u1EA1i
-    \u0111\xE3 h\u1EE3p nh\u1EA5t s\u1EE9c m\u1EA1nh \u0111\u1EC3 t\u1EA1o ra Ng\u1ECDc
-    B\u0103ng V\u0129nh C\u1EEDu, phong \u1EA5n H\u1EAFc Long Komodo"
-  - "B\u1EA7u tr\u1EDDi b\u1ECB x\xE9 to\u1EA1c khi phi thuy\u1EC1n c\u1EE7a The
-    Outsiders r\u01A1i xu\u1ED1ng Tr\xE1i \u0110\u1EA5t. Ch\xFAng ph\xE1t hi\u1EC7n
-    ngu\u1ED3n n\u0103ng l\u01B0\u1EE3ng c\u1ED5 \u0111\u1EA1i v\xE0 d\xF9ng c\xF4ng
-    ngh\u1EC7 h\u1EA1t nh\xE2n t\u1ED1i th\u01B0\u1EE3ng \u0111\u1EC3 ph\xE1 v\u1EE1
-    phong \u1EA5n"
-  - "H\u1EAFc Long Komodo \u0111\u01B0\u1EE3c gi\u1EA3i ph\xF3ng, t\xE0n ph\xE1 th\u1EBF
-    gian. Ng\u1ECDc B\u0103ng V\u0129nh C\u1EEDu v\u1EE1 tan, chia th\xE0nh ba Ng\u1ECDc
-    Nguy\xEAn T\u1ED1: H\u1ECFa, Th\u1ED5 v\xE0 Phong"
-  - "Khi Komodo tr\xFAt l\u1EEDa xu\u1ED1ng th\u1EBF gian, m\u1ED9t ng\xF4i l\xE0ng
-    bi\u1EBFn m\u1EA5t kh\u1ECFi b\u1EA3n \u0111\u1ED3. Ch\u1EC9 c\xF2n m\u1ED9t
-    c\u1EADu b\xE9 r\u1ED3ng s\u1ED1ng s\xF3t \u2014 k\u1EBB mang trong m\xECnh n\u1ED7i
-    m\u1EA5t m\xE1t, v\xE0 s\u1ED1 m\u1EC7nh \u0111\u1ED1i \u0111\u1EA7u H\u1EAFc
-    Long"
-  - "S\u1EE9c m\u1EA1nh h\u1EAFc \xE1m kh\xF4ng th\u1EC3 b\u1ECB \u0111i\u1EC1u khi\u1EC3n.
-    K\u1EBB x\xE2m l\u0103ng t\u1EEB v\xEC sao bu\u1ED9c ph\u1EA3i quy ph\u1EE5c.
-    D\u01B0\u1EDBi danh H\u1EAFc Long Komodo, m\u1ED9t th\u1EBF l\u1EF1c ch\u01B0a
-    t\u1EEBng \u0111\u01B0\u1EE3c ghi ch\xE9p ra \u0111\u1EDDi"
-  - "H\u1EAFc Long r\xFAt v\u1EC1 Sa M\u1EA1c T\xE0n Tro, gi\u1EEF Vi\xEAn Ng\u1ECDc
-    H\u1ECFa. R\u1EEBng Thi\xEAng r\u01A1i v\xE0o tay S\xF3i C\u1ED5 \u0110\u1EA1i
-    c\xF9ng Vi\xEAn Ng\u1ECDc Th\u1ED5. Ng\u01B0\u1EDDi Ngo\xE0i H\xE0nh Tinh chi\u1EBFm
-    gi\u1EEF V\xF9ng \u0110\u1EA5t S\u01B0\u01A1ng M\xF9 v\u1EDBi Vi\xEAn Ng\u1ECDc
-    Phong."
-  - "Gi\u1EEFa tro t\xE0n, c\u1EADu b\xE9 hi\u1EC7p s\u0129 r\u1ED3ng th\u1EC1 phong
-    \u1EA5n r\u1ED3ng h\u1EAFc \xE1m. L\u1EDDi th\u1EC1 \u1EA5y d\u1EABn c\u1EADu
-    b\u01B0\u1EDBc v\xE0o h\xE0nh tr\xECnh kh\xF4ng th\u1EC3 quay \u0111\u1EA7u"
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   storyTextBox: {fileID: 1571787176}
   buttonSkip: {fileID: 1913256736}
   buttonPlay: {fileID: 962920513}
@@ -1201,6 +1180,7 @@ MonoBehaviour:
   currentDelay: 0
   speedDelay: 1
   isDelay: 0
+  textCut: {fileID: 11400000, guid: c69b03d7003feea48b874ab98f52aedd, type: 2}
 --- !u!82 &831511101
 AudioSource:
   m_ObjectHideFlags: 0
