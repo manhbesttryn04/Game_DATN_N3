@@ -8826,7 +8826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Levelload: 10
-  boss: 2
+  boss: 0
   direc: 4
   Bong: {fileID: 0}
 --- !u!4 &1272608654 stripped
