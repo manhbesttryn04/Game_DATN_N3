@@ -398,8 +398,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "M\u1EE5c ti\xEAu: v\u01B0\u1EE3t qua d\xF2ng s\u1ED1ng b\u1ECB \xF4 nhi\u1EC5m
-    b\u1EDFi H\u1EAFc Long\n"
+  m_text: "Ti\xEAu di\u1EC7t 10 qu\xE1i v\u1EADt \nT\xECm ch\xECa kh\xF3 b\u1ECB
+    c\u1EA5t d\u1EA5u khi ti\xEAu di\u1EC7t qu\xE1i "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -822,7 +822,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "S\xF4ng b\u1ECB \xF4 nhi\u1EC5m"
+  m_text: "Ti\xEAu  Di\u1EC7t Qu\xE1i "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
