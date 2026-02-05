@@ -2,41 +2,52 @@
 
 public class EatMoneyController : MonoBehaviour {
 
-    private Rigidbody2D myRB = new Rigidbody2D();
+    [Header("Cấu hình")]
     public SoundManager sound;
-    private void Start()
-    {
-        sound = GameObject.FindGameObjectWithTag("sound").GetComponent<SoundManager>();
-    }
-    private void ThucHienChoPhepVatPhamBay(GameObject Obj)
-    {
-        if (Obj != null)
-        {
-            if (Obj.GetComponent<Rigidbody2D>() == null)
-            {
-                myRB = Obj.AddComponent<Rigidbody2D>() as Rigidbody2D;
-            }
-           
-            // Cho trong luc = 0;
-            myRB.gravityScale = 0;
-            // + y
-            myRB.AddForce(new Vector2(0, 1) * 2, ForceMode2D.Impulse);
-            Destroy(Obj, 2);
+    public int soTienCong = 100;
+
+    void Start() {
+        // Tự động tìm SoundManager nếu chưa kéo vào Inspector
+        if (sound == null) {
+            GameObject soundObj = GameObject.FindGameObjectWithTag("sound");
+            if (soundObj != null) sound = soundObj.GetComponent<SoundManager>();
         }
-        //
     }
 
-	private void OnTriggerEnter2D(Collider2D money){
-		if (money.CompareTag ("Money")) 
+    // Quan trọng: Sử dụng OnTriggerEnter2D để "đi xuyên qua" vật phẩm
+    private void OnTriggerEnter2D(Collider2D money) {
+        if (money.CompareTag("Money")) {
             
-            if (money.GetComponent<Rigidbody2D>() == null)
-            {
-                money.GetComponent<Collider2D>().enabled = false;
+            // 1. Vô hiệu hóa Collider của đồng tiền ngay lập tức
+            money.enabled = false;
 
-                PlayerHealth.control._Player.Gold += 100;
-                ThucHienChoPhepVatPhamBay(money.gameObject);
-                sound.Playsound("Vang");
-            }            
-		}
+            // 2. Cộng tiền (Kiểm tra null để tránh lỗi)
+            if (PlayerHealth.control != null && PlayerHealth.control._Player != null) {
+                PlayerHealth.control._Player.Gold += soTienCong;
+            }
+
+            // 3. Phát âm thanh
+            if (sound != null) sound.Playsound("Vang");
+
+            // 4. Hiệu ứng bay và xóa
+            ThucHienHieuUngBay(money.gameObject);
+        }
+    }
+
+    private void ThucHienHieuUngBay(GameObject obj) {
+        Rigidbody2D rb = obj.GetComponent<Rigidbody2D>();
+        
+        // Nếu vật phẩm chưa có Rigidbody thì thêm vào để xử lý lực
+        if (rb == null) {
+            rb = obj.AddComponent<Rigidbody2D>();
+        }
+
+        // Cập nhật chuẩn Unity mới nhất: sử dụng linearVelocity thay cho velocity
+        rb.gravityScale = 0; 
+        rb.linearVelocity = Vector2.zero; // Reset vận tốc về 0
+        rb.AddForce(Vector2.up * 3f, ForceMode2D.Impulse); // Đẩy nhẹ lên trên
+
+        // Xóa đồng tiền sau 0.5 giây
+        Destroy(obj, 0.5f);
+    }
 }
-

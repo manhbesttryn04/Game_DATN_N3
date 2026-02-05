@@ -214,6 +214,10 @@ public class ChangePlayer : MonoBehaviour {
 	// Update is called once per frame
 	private void Update () {
         skill = SkillManager.GetSkillByID(-1, 3);
+
+    // KIỂM TRA NULL Ở ĐÂY
+    if (skill != null) 
+    {
         // Khoa ky nang
         if (skill.Status == 0)
         {
@@ -223,6 +227,12 @@ public class ChangePlayer : MonoBehaviour {
         {
             Lock = false;
         }
-		HandlingChangePlayer ();
+        HandlingChangePlayer();
+    }
+    else 
+    {
+        // Nếu không tìm thấy skill, bạn có thể in Log để kiểm tra 
+        Debug.LogWarning("Không tìm thấy Skill với ID 3 trong SkillManager!");
+    }
 	}
 }

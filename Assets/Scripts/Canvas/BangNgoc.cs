@@ -9,20 +9,29 @@ public class BangNgoc : MonoBehaviour {
     public Text SLNgocTho;
     public Text SLNgocPhong;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        if (VatPhamController.GetItemByID(1).ID != -1
-            && VatPhamController.GetItemByID(2).ID != -1
-            && VatPhamController.GetItemByID(3).ID != -1)
+    void Update () {
+        // Lấy thông tin 3 loại ngọc
+        var ngocHoa = VatPhamController.GetItemByID(1);
+        var ngocTho = VatPhamController.GetItemByID(2);
+        var ngocPhong = VatPhamController.GetItemByID(3);
+
+        // Kiểm tra xem CẢ 3 món có tồn tại (khác null) hay không trước khi xử lý
+        if (ngocHoa != null && ngocTho != null && ngocPhong != null)
         {
-            SLNgocHoa.text = "x" + VatPhamController.GetItemByID(1).Quality.ToString();
-            SLNgocTho.text = "x" + VatPhamController.GetItemByID(2).Quality.ToString();
-            SLNgocPhong.text = "x" + VatPhamController.GetItemByID(3).Quality.ToString();
+            // Kiểm tra ID khác -1 (theo logic cũ của bạn)
+            if (ngocHoa.ID != -1 && ngocTho.ID != -1 && ngocPhong.ID != -1)
+            {
+                SLNgocHoa.text = "x" + ngocHoa.Quality.ToString();
+                SLNgocTho.text = "x" + ngocTho.Quality.ToString();
+                SLNgocPhong.text = "x" + ngocPhong.Quality.ToString();
+            }
         }
-	}
+        else 
+        {
+            // Nếu bị null, có thể hiển thị số lượng là 0 thay vì báo lỗi đỏ
+            if(SLNgocHoa != null) SLNgocHoa.text = "x0";
+            if(SLNgocTho != null) SLNgocTho.text = "x0";
+            if(SLNgocPhong != null) SLNgocPhong.text = "x0";
+        }
+    }
 }

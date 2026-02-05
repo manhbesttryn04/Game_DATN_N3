@@ -26,6 +26,11 @@ TagManager:
   - Door
   - Undefined
   - Item
+  - CanvasPlayer
+  - Thung
+  - BossCon
+  - Index
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -33,7 +38,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Item
   - 
   - 
   - 
