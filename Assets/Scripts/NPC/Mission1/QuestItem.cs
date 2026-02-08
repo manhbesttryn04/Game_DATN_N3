@@ -3,23 +3,32 @@ using UnityEngine;
 public class QuestItem : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.CompareTag("Player")) {
-            // Cách 1: Sử dụng Instance (Tối ưu nhất về tốc độ)
+            // Ưu tiên sử dụng Instance để báo cáo nhiệm vụ
             if (QuestNPC.Instance != null) {
                 
-                // (Tùy chọn) Chỉ cho phép nhặt nếu đang ở đúng giai đoạn nhiệm vụ 1
+                // KIỂM TRA: Chỉ cho nhặt nếu NPC đang ở trạng thái chờ Giai đoạn 1 (Tìm đồ/Vượt địa hình)
                 if (QuestNPC.Instance.currentState == QuestNPC.QuestState.DoingQuest1) {
+                    
+                    // Gọi hàm xác nhận nhặt đồ trong QuestNPC
                     QuestNPC.Instance.DaNhatDuocDo(); 
+                    
+                    // Xóa vật phẩm khỏi bản đồ
                     Destroy(gameObject); 
-                } else {
-                    Debug.Log("Bạn chưa nhận nhiệm vụ hoặc đã qua giai đoạn này!");
+                    Debug.Log("<color=green>Đã nhặt vật phẩm nhiệm vụ thành công!</color>");
+                } 
+                else if (QuestNPC.Instance.currentState == QuestNPC.QuestState.None) {
+                    Debug.Log("Bạn cần nói chuyện với NPC để nhận nhiệm vụ trước khi nhặt món đồ này!");
+                }
+                else {
+                    Debug.Log("Nhiệm vụ này đã qua giai đoạn tìm đồ.");
                 }
                 
-                return; // Kết thúc hàm nếu đã tìm thấy Instance
+                return; // Đã xử lý xong, thoát hàm
             }
 
-            // Cách 2: Dự phòng nếu Instance vì lý do nào đó bị null (Chuẩn mới FindFirstObjectByType)
+            // DỰ PHÒNG: Nếu Instance bị null (hiếm khi xảy ra nếu đã đặt NPC trong Map)
             QuestNPC npc = Object.FindFirstObjectByType<QuestNPC>(); 
-            if (npc != null) {
+            if (npc != null && npc.currentState == QuestNPC.QuestState.DoingQuest1) {
                 npc.DaNhatDuocDo(); 
                 Destroy(gameObject); 
             }

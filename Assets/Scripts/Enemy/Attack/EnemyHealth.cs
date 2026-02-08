@@ -179,7 +179,6 @@ public class EnemyHealth : MonoBehaviour {
             }
         }
     }
-
     private void Instancex(){
         this.Die = false; 
         EnemyParent.transform.position = psitionStart;
