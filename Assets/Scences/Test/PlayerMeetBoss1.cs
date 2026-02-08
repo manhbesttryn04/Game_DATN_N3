@@ -36,7 +36,7 @@ public class PlayerMeetBoss1 : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    { if (bossSoi.gameObject.activeSelf == false) return;
         MeetBossSoi();
         BossSoiChet();
         BatSkillSoiTanHinh();

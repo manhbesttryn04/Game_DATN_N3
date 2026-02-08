@@ -104,7 +104,7 @@ public class enemyMovingWalk : MonoBehaviour {
         {
             if (other.CompareTag("Player") && !BlockFacing)
             {
-                if ((other.transform.position.x >= minX && other.transform.position.x <= maxX) && nextTimeFacing < Time.time)
+                if (Vector2.Distance(gameObject.transform.position, other.gameObject.transform.position) <=30f && nextTimeFacing < Time.time)
                 {
                     // Huong ve player 
                     if (EnemyGraphics != null)

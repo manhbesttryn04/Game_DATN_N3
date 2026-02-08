@@ -36,6 +36,18 @@ EditorBuildSettings:
     path: Assets/Scences/Level2/Level2.3.unity
     guid: 9f5bb665130e5d441b066f941eac8e3e
   - enabled: 1
+    path: Assets/Scences/Level3/Level3.1.unity
+    guid: a13960076756e8d4597f081470cf11b2
+  - enabled: 1
+    path: Assets/Scences/Level3/Level3.2.unity
+    guid: fdd918e217c226c44b1adaf7679eae6d
+  - enabled: 1
+    path: Assets/Scences/Level3/Level3.3.unity
+    guid: 9e6e15e3d60fb7b4da03167d2bfce535
+  - enabled: 1
+    path: Assets/Scences/Level3/LevelLaze.unity
+    guid: e134038598bf5684fb342cd1a1e897a6
+  - enabled: 1
     path: Assets/Scences/Level2/LevelSoi.unity
     guid: b3bf155d6e3e3214eb0e396a73031d44
   - enabled: 1
